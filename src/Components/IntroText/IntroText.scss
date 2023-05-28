@@ -1,0 +1,149 @@
+.intro-text {
+  font-family: Roboto Slab, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: flex-start;
+  margin: 9rem 4rem 0 6rem;
+}
+
+.intro-text h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.aqua-text {
+  color: #05b59e;
+}
+
+.intro-text .first-line {
+  margin: 0 50% 0 0;
+}
+
+.second-line {
+  color: #757576;
+}
+
+/*ipad air*/
+@media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
+  .intro-text {
+    margin: 25% 10% 0 20%;
+  }
+  .intro-text .first-line {
+    margin: 30% 50% 0 0;
+  }
+  .intro-text .second-line {
+    margin: 0 0 0 0%;
+  }
+}
+
+/*ipad mini*/
+@media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  .intro-text {
+    margin: 25% 10% 0 20%;
+  }
+  .intro-text .first-line {
+    margin: 30% 50% 0 0;
+  }
+  .intro-text .second-line {
+    margin: 0 0 0 0%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .intro-text .first-line {
+    margin: 0 8% 0 0;
+  }
+  .intro-text .second-line {
+    margin: 0 0 0 -5%;
+  }
+}
+
+/*iphone xr*/
+@media screen and (max-width: 415px) {
+  .intro-text {
+    margin: 0 0 0 5%;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem;
+  }
+
+  .intro-text .first-line {
+    margin: 90% 0 0 0;
+  }
+  .intro-text .second-line {
+    margin: 0 0 0 0;
+  }
+}
+
+/* samsung galaxy s20 ultra */
+@media screen and (max-width: 412px) {
+  .intro-text {
+    margin-top: 6%;
+  }
+}
+
+/* pixel 5 */
+@media screen and (max-width: 394px) {
+  .intro-text {
+    margin: 0;
+    align-items: center;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem;
+  }
+
+  .intro-text .first-line {
+    margin: 85% 40% 0 0;
+  }
+  .intro-text .second-line {
+    margin: 0 0 0 0;
+  }
+}
+
+/* iphone 12 pro */
+@media screen and (max-width: 391px) {
+  .intro-text {
+    margin: 0;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem;
+  }
+
+  .intro-text .first-line {
+    margin: 82% 0 0 0;
+  }
+  .intro-text .second-line {
+    margin: 0 0 0 2%;
+  }
+}
+
+/*iphone se*/
+@media screen and (max-width: 376px) {
+  .intro-text {
+    margin: 0;
+    align-items: center;
+  }
+
+  .intro-text h1 {
+    font-size: 2rem;
+  }
+
+  .intro-text .first-line {
+    margin: 60% 0 0 0;
+  }
+  .intro-text .second-line {
+    margin: 0 0 0 0;
+  }
+}
+
+/* samsung galaxy s8+ */
+@media screen and (max-width: 361px) {
+  .intro-text {
+    margin-top: 15%;
+  }
+}

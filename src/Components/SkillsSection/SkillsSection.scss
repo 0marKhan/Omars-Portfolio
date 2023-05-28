@@ -1,0 +1,89 @@
+.skills-section {
+  position: relative;
+  background-color: #05b59e;
+  height: 170vh;
+  margin-top: 18vh;
+  overflow: hidden;
+  font-family: "Roboto Slab", sans-serif;
+
+  .skills-content {
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .skills-heading {
+    font-size: 2.5rem;
+    margin-top: 7%;
+  }
+
+  .skills-icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
+    margin: 7% 8% 0 8%;
+
+    .skill-icon {
+      font-size: 3rem;
+      padding-top: 50px;
+    }
+  }
+
+  @media screen and (max-width: 1224px) {
+    height: 170vh;
+  }
+
+  @media screen and (max-width: 825px) {
+    height: 290vh;
+  }
+
+  @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
+    margin-top: 39vh;
+  }
+
+  @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+    margin-top: 45vh;
+  }
+
+  @media screen and (max-width: 415px) {
+    height: 130vh;
+    width: 50vh;
+    margin-top: 49vh;
+
+    .skills-icons {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+  }
+
+  @media screen and (max-width: 412px) {
+  }
+
+  @media screen and (max-width: 394px) {
+  }
+
+  @media screen and (width: 390px) {
+  }
+
+  @media screen and (max-width: 376px) {
+    height: 170vh;
+    margin-top: 36vh;
+    width: 56vh;
+  }
+
+  @media screen and (max-width: 361px) {
+    .skills-content {
+      margin: 0 8% 0 0;
+    }
+
+    .skills-icons {
+      margin-left: 7%;
+    }
+
+    .skills-section {
+      margin-top: 39vh;
+      width: 53vh;
+    }
+  }
+}
