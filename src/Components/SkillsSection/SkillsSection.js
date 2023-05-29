@@ -55,8 +55,8 @@ const SkillsSection = () => {
           <SiSass className="skill-icon" title="Sass" />
           {/* <DiNodejs className="skill-icon" title="Node.js" /> */}
           {/* <FaNodeJs className="skill-icon" title="Express.js" /> */}
-          {/* <SiTypescript className="skill-icon" title="TypeScript" /> */}
-          {/* <SiNextdotjs className="skill-icon" title="Next.js" /> */}
+          <SiTypescript className="skill-icon" title="TypeScript" />
+          <SiNextdotjs className="skill-icon" title="Next.js" />
           {/* <FiFigma className="skill-icon" title="Figma" /> */}
           <SiGit className="skill-icon" title="Git" />
           {/* <SiMongodb className="skill-icon" title="MongoDB" /> */}
