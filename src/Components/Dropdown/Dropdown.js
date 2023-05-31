@@ -14,9 +14,9 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import { styled } from "@mui/material/styles";
 
 const CustomListItemButton = styled(ListItemButton)(({ theme }) => ({
-  color: "#757576",
+  color: "#fff",
   "& .MuiListItemIcon-root": {
-    color: "#757576",
+    color: "#fff",
   },
   "&:hover": {
     backgroundColor: "#303636", // Updated color when hovering
