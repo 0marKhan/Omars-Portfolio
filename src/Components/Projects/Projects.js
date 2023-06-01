@@ -4,7 +4,7 @@ import "./Projects.scss";
 const Projects = () => {
   return (
     <div className="projects">
-      <h1>Projects</h1>
+      <h1 className="projects-start-title">Projects</h1>
       {/* Your skill content goes here */}
     </div>
   );

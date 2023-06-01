@@ -2,6 +2,7 @@
   position: relative;
   background-color: #05b59e;
   height: 170vh;
+  margin-top: 18dvh;
   margin-top: 18vh;
   overflow: hidden;
   font-family: "Roboto Slab", sans-serif;
@@ -14,15 +15,15 @@
 
   .skills-heading {
     font-size: 2.5rem;
-    margin-top: 10%;
+    margin-top: 5rem;
   }
 
   .skills-icons {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 25px;
     justify-items: center;
-    margin: 7% 8% 0 8%;
+    margin: 9rem 8rem 0 8rem;
 
     .skill-icon {
       font-size: 3rem;
