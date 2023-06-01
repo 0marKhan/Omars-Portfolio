@@ -19,7 +19,7 @@ const CustomListItemButton = styled(ListItemButton)(({ theme }) => ({
     color: "#fff",
   },
   "&:hover": {
-    backgroundColor: "#303636", // Updated color when hovering
+    backgroundColor: "#303636",
     color: theme.palette.primary.contrastText,
     "& .MuiListItemIcon-root": {
       color: theme.palette.primary.contrastText,
