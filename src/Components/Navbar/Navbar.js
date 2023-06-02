@@ -7,12 +7,17 @@ import {
   faFilePdf, // Resume icon
 } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
+import Lottie from "lottie-react";
+import deca from "./deca.json";
 import "./Navbar.scss";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <ul className="nav-links">
+        <li className="lottie-container">
+          <Lottie className="lottie-anim" animationData={deca} />
+        </li>
         <li>
           <a
             href="#"

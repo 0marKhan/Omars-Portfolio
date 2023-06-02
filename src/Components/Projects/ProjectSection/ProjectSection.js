@@ -8,7 +8,7 @@ import { Tilt } from "react-tilt";
 
 const ProjectSection = (props) => {
   useEffect(() => {
-    AOS.init(); // Initialize AOS
+    AOS.init();
   }, []);
 
   return (
