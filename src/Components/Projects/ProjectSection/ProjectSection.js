@@ -1,27 +1,22 @@
 import "./ProjectSection.scss";
 import Technologies from "./Technologies/Technologies";
-
-//info for the project
-const ProjectDetails = [
-  {
-    technologiesUsed: ["React.js", "SASS", "Material UI"],
-    description:
-      "lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el",
-  },
-  {
-    technologiesUsed: ["React.js", "SASS", "Material UI", "Node.js"],
-    description:
-      "lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el",
-  },
-];
+import { useEffect, useRef } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import VanillaTilt from "vanilla-tilt";
+import { Tilt } from "react-tilt";
 
 const ProjectSection = (props) => {
+  useEffect(() => {
+    AOS.init(); // Initialize AOS
+  }, []);
+
   return (
     <div className="container">
-      <div className="content-left">
-        <h2>Project 1 generic name</h2>
-        <Technologies techs={ProjectDetails[0].technologiesUsed} />
-        {ProjectDetails[0].description}
+      <div className="content-left" data-aos="fade-right">
+        <h2>{props.title}</h2>
+        <Technologies techs={props.techs} data-aos="fade-right" />
+        <span className="details">{props.desc}</span>
         <div className="project-buttons">
           <button className="button button--hyperion">
             <span>
@@ -35,8 +30,15 @@ const ProjectSection = (props) => {
           </button>
         </div>
       </div>
-      <div className="image-section">{/* <ProjectImage/> */}</div>
+      <div className="image-section" data-aos="fade-down">
+        <img
+          className="project-image"
+          src={props.imageUrl}
+          alt="project image"
+        />
+      </div>
     </div>
   );
 };
+
 export default ProjectSection;

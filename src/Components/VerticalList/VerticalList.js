@@ -7,16 +7,16 @@ import "./VerticalList.scss";
 const VerticalList = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1500,
+      duration: 1000,
       once: true,
       easing: "ease-in-out",
     });
   }, []);
 
-  const listAnimation = useSpring({
-    from: { opacity: 0, transform: "translateY(-100%)" },
-    to: { opacity: 1, transform: "translateY(0%)" },
-    config: { duration: 1300 },
+  const lineAnimation = useSpring({
+    from: { scaleY: 0 },
+    to: { scaleY: 1 },
+    config: { duration: 500 },
   });
 
   return (
@@ -24,14 +24,14 @@ const VerticalList = () => {
       <animated.div
         data-aos="fade-right"
         data-aos-offset="2"
-        style={listAnimation}
+        style={lineAnimation}
         className="vertical-line"
       />
-      <animated.ul style={listAnimation}>
+      <animated.ul>
         <li
           data-aos="fade-up"
           data-aos-offset="2"
-          data-aos-delay="300"
+          data-aos-delay="100"
           className="Skills"
         >
           <a href="#" data-replace="Skills">
@@ -41,7 +41,7 @@ const VerticalList = () => {
         <li
           data-aos="fade-up"
           data-aos-offset="2"
-          data-aos-delay="600"
+          data-aos-delay="300"
           className="Projects"
         >
           <a href="#" data-replace="Projects">
@@ -51,7 +51,7 @@ const VerticalList = () => {
         <li
           data-aos="fade-up"
           data-aos-offset="2"
-          data-aos-delay="900"
+          data-aos-delay="500"
           className="About"
         >
           <a href="#" data-replace="About">
@@ -61,7 +61,7 @@ const VerticalList = () => {
         <li
           data-aos="fade-up"
           data-aos-offset="2"
-          data-aos-delay="1200"
+          data-aos-delay="700"
           className="Contact"
         >
           <a href="#" data-replace="Contact">
