@@ -7,6 +7,7 @@ import SideNav from "../../Components/SideNav/SideNav";
 import Projects from "../../Components/Projects/Projects";
 import FrontImage from "../../Components/FrontImage/FrontImage";
 import ScrollNav from "../../Components/ScrollNav/ScrollNav";
+import About from "../../Components/About/About";
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       </div>
       <SkillsSection />
       <Projects />
+      <About />
     </div>
   );
 }
