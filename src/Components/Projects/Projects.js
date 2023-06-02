@@ -10,6 +10,7 @@ import ProjectSection from "./ProjectSection/ProjectSection";
 //info for the project
 const ProjectDetails = [
   {
+    title: "project generic name",
     technologiesUsed: ["React.js", "SASS", "Material UI"],
     description:
       "lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el",
@@ -35,6 +36,7 @@ const Projects = () => {
       </h1>
       <div className="section-spacing">
         <ProjectSection
+          title={ProjectDetails[0].title}
           techs={ProjectDetails[0].technologiesUsed}
           desc={ProjectDetails[0].description}
           imageUrl={ProjectDetails[0].imageUrl}
@@ -42,6 +44,7 @@ const Projects = () => {
       </div>
       <div className="section-spacing">
         <ProjectSection
+          title={ProjectDetails[0].title}
           techs={ProjectDetails[0].technologiesUsed}
           desc={ProjectDetails[0].description}
           imageUrl={ProjectDetails[0].imageUrl}
@@ -49,6 +52,7 @@ const Projects = () => {
       </div>
       <div className="section-spacing">
         <ProjectSection
+          title={ProjectDetails[0].title}
           techs={ProjectDetails[0].technologiesUsed}
           desc={ProjectDetails[0].description}
           imageUrl={ProjectDetails[0].imageUrl}
@@ -56,6 +60,7 @@ const Projects = () => {
       </div>
       <div className="section-spacing">
         <ProjectSection
+          title={ProjectDetails[0].title}
           techs={ProjectDetails[0].technologiesUsed}
           desc={ProjectDetails[0].description}
           imageUrl={ProjectDetails[0].imageUrl}

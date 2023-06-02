@@ -1,9 +1,10 @@
 import "./ProjectSection.scss";
 import Technologies from "./Technologies/Technologies";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img from "./ProjectImages/tmp.png";
+import VanillaTilt from "vanilla-tilt";
+import { Tilt } from "react-tilt";
 
 const ProjectSection = (props) => {
   useEffect(() => {
@@ -13,7 +14,7 @@ const ProjectSection = (props) => {
   return (
     <div className="container">
       <div className="content-left" data-aos="fade-right">
-        <h2>Project 1 generic name</h2>
+        <h2>{props.title}</h2>
         <Technologies techs={props.techs} data-aos="fade-right" />
         <span className="details">{props.desc}</span>
         <div className="project-buttons">
@@ -30,7 +31,11 @@ const ProjectSection = (props) => {
         </div>
       </div>
       <div className="image-section" data-aos="fade-down">
-        <img src={props.imageUrl} alt="project image" />
+        <img
+          className="project-image"
+          src={props.imageUrl}
+          alt="project image"
+        />
       </div>
     </div>
   );
