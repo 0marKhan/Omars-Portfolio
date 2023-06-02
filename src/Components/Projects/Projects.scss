@@ -1,15 +1,19 @@
 .projects {
   background-color: white;
-  height: 180vh;
-  height: 180dvh;
+  height: 300vh;
+  height: 300dvh;
   margin: 0 0 25vh 0;
   margin: 0 0 25dvh 0;
   font-family: "Roboto Slab", sans-serif;
-}
 
-.projects-start-title {
-  margin: 0;
-  padding: 8rem 0 0 0;
-  font-size: 2.5rem;
-  color: #1b1c1e;
+  .projects-start-title {
+    margin: 0;
+    padding: 8rem 0 0 0;
+    font-size: 2.5rem;
+    color: #1b1c1e;
+  }
+
+  .section-spacing {
+    margin-top: 4rem;
+  }
 }

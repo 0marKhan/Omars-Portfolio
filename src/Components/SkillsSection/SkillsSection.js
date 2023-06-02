@@ -37,7 +37,7 @@ const SkillsSection = () => {
   return (
     <div className="skills-section">
       <div className="skills-content">
-        <h1 className="skills-heading" data-aos="fade-up">
+        <h1 className="skills-heading" data-aos="zoom">
           Skills
         </h1>
         <div
