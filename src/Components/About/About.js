@@ -6,7 +6,7 @@ import picture from "./about.png";
 
 const About = () => {
   useEffect(() => {
-    AOS.init({});
+    AOS.init({ duration: 600 });
   }, []);
 
   return (
