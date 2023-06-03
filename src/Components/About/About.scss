@@ -1,10 +1,7 @@
 .about {
   position: relative;
   background-color: #05b59e;
-  height: 110dvh;
   height: 110vh;
-  //   margin: 0 0 80dvh 0;
-  //   margin: 0 0 80vh 0;
   overflow: hidden;
   font-family: "Roboto Slab", sans-serif;
 
@@ -17,11 +14,13 @@
 
   .about-container {
     display: flex;
-    img {
-      height: 15rem;
-      order: 1;
-      margin: 6rem 0 0 20rem;
+
+    .lottie-animation {
+      height: 35rem;
+      width: 35rem;
+      margin: -8rem 0 7rem 3rem;
     }
+
     .about-description {
       margin: 8.5rem 12rem 0 8rem;
       font-size: 1.2rem;

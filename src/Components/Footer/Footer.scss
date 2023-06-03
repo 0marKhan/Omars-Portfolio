@@ -1,0 +1,51 @@
+.footer {
+  position: relative;
+  background-color: #000;
+  height: 50vh;
+  overflow: hidden;
+  font-family: "Roboto Slab", sans-serif;
+  color: #fff;
+
+  .flex-row {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+
+    .flex-col {
+      display: flex;
+      flex-flow: column;
+      width: 25%;
+    }
+    p {
+      width: 62%;
+      margin: 0rem 0 0 2.8rem;
+      text-align: left;
+      font-size: 1rem;
+      padding-left: 1rem;
+    }
+    a {
+      width: 5%;
+      margin-left: 5rem;
+      font-size: 1rem;
+      transition: transform 0.2s;
+      text-decoration: none;
+      color: white;
+
+      &:hover {
+        transform: scale(1.1);
+        color: #05b59e;
+      }
+    }
+  }
+
+  .footer-bottom {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    .lottie {
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+}

@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./About.scss";
-import picture from "./about.png";
+
+import Lottie from "lottie-react";
+import rocket from "./5306-rocket-funk.json";
 
 const About = () => {
   useEffect(() => {
@@ -13,7 +15,7 @@ const About = () => {
     <div className="about">
       <h1 data-aos="zoom-in">About</h1>
       <div className="about-container">
-        <img src={picture} alt="about me picture" data-aos="fade-right" />
+        <Lottie className="lottie-animation" animationData={rocket} />
         <p className="about-description" data-aos="fade-down">
           I'm a passionate frontend developer, that's worked on many websites,
           and aim to work on much more.

@@ -9,6 +9,7 @@ import FrontImage from "../../Components/FrontImage/FrontImage";
 import ScrollNav from "../../Components/ScrollNav/ScrollNav";
 import About from "../../Components/About/About";
 import ContactForm from "../../Components/ContactForm/ContactForm";
+import Footer from "../../Components/Footer/Footer";
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
       <Projects />
       <About />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
