@@ -25,7 +25,7 @@ import { FaNodeJs, FaReact } from "react-icons/fa";
 const SkillsSection = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1600,
+      duration: 600,
       once: true,
     });
   }, []);
