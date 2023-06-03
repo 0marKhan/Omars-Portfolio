@@ -1,0 +1,18 @@
+.multiline {
+  textarea {
+    height: 9rem;
+    max-width: 120%;
+    width: 120%;
+    min-width: 100%;
+    font-family: Roboto Slab, sans-serif;
+    color: white;
+    font-size: 1rem;
+    margin: 1rem 0 0 8rem;
+    background-color: #303236;
+    padding-left: 8px;
+    padding-top: 7px;
+    outline: none;
+    border: none;
+    resize: none;
+  }
+}

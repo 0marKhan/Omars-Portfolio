@@ -8,6 +8,7 @@ import Projects from "../../Components/Projects/Projects";
 import FrontImage from "../../Components/FrontImage/FrontImage";
 import ScrollNav from "../../Components/ScrollNav/ScrollNav";
 import About from "../../Components/About/About";
+import ContactForm from "../../Components/ContactForm/ContactForm";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       <SkillsSection />
       <Projects />
       <About />
+      <ContactForm />
     </div>
   );
 }

@@ -1,0 +1,102 @@
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto Slab, sans-serif;
+
+  .contact-heading {
+    color: #fff;
+    font-family: Roboto Slab, sans-serif;
+    margin: 5rem 0 0 0;
+  }
+
+  .contact-details {
+    display: flex;
+
+    margin-right: 29rem;
+    justify-content: space-between;
+
+    margin-top: 4rem;
+    .contact-text {
+      // margin-right: 20rem;
+      color: #fff;
+      font-size: 1.2rem;
+      text-align: left;
+    }
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 12rem 4rem 0;
+
+    .form-column {
+      display: flex;
+      flex-direction: column;
+      margin-right: 0.5rem;
+    }
+  }
+
+  .contact-heading {
+    text-align: center;
+  }
+
+  .contact-text {
+    text-align: center;
+  }
+
+  .frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+  button {
+    font-size: inherit;
+    margin: -2rem 1rem 4rem 42.5rem;
+
+    outline: none;
+  }
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #1b1c1e;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  .btn-16 {
+    background: #05b59e;
+    color: #fff;
+    z-index: 1;
+    line-height: 1;
+  }
+  .btn-16:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: #e0e5ec;
+    transition: all 0.3s ease;
+  }
+  .btn-16:hover {
+    color: #000;
+  }
+  .btn-16:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+  .btn-16:active {
+    top: 2px;
+  }
+}
