@@ -45,20 +45,60 @@ const SkillsSection = () => {
           data-aos="fade-right"
           data-aos-delay="200"
         >
-          {/* Icons for skills */}
-          <SiHtml5 className="skill-icon" title="HTML" />
-          <SiCss3 className="skill-icon" title="CSS" />
-          <SiJavascript className="skill-icon" title="JavaScript" />
-          <SiReact className="skill-icon" title="React" />
-          <SiTailwindcss className="skill-icon" title="Tailwind CSS" />
-          <SiBootstrap className="skill-icon" title="Bootstrap" />
-          <SiSass className="skill-icon" title="Sass" />
+          <div className="skills-container">
+            <SiHtml5 className="skill-icon" title="HTML" />
+            HTML
+          </div>
+
+          <div className="skills-container">
+            <SiCss3 className="skill-icon" title="CSS" />
+            CSS
+          </div>
+
+          <div className="skills-container">
+            <SiJavascript className="skill-icon" title="JavaScript" />
+            Javascript
+          </div>
+
+          <div className="skills-container">
+            <SiReact className="skill-icon" title="React" />
+            React
+          </div>
+
+          <div className="skills-container">
+            <SiTailwindcss className="skill-icon" title="Tailwind CSS" />
+            Tailwind CSS
+          </div>
+
+          <div className="skills-container">
+            <SiBootstrap className="skill-icon" title="Bootstrap" />
+            Bootstrap
+          </div>
+
+          <div className="skills-container">
+            <SiSass className="skill-icon" title="Sass" />
+            Sass
+          </div>
+
           {/* <DiNodejs className="skill-icon" title="Node.js" /> */}
           {/* <FaNodeJs className="skill-icon" title="Express.js" /> */}
-          <SiTypescript className="skill-icon" title="TypeScript" />
-          <SiNextdotjs className="skill-icon" title="Next.js" />
+
+          <div className="skills-container">
+            <SiTypescript className="skill-icon" title="TypeScript" />
+            TypeScript
+          </div>
+
+          <div className="skills-container">
+            <SiNextdotjs className="skill-icon" title="Next.js" />
+            Next.js
+          </div>
+
           {/* <FiFigma className="skill-icon" title="Figma" /> */}
-          <SiGit className="skill-icon" title="Git" />
+
+          <div className="skills-container">
+            <SiGit className="skill-icon" title="Git" />
+            Git
+          </div>
           {/* <SiMongodb className="skill-icon" title="MongoDB" /> */}
         </div>
       </div>

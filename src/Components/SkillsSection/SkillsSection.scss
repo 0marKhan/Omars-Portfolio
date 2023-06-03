@@ -25,9 +25,16 @@
     justify-items: center;
     margin: 9rem 8rem 0 8rem;
 
-    .skill-icon {
-      font-size: 3rem;
-      padding-top: 50px;
+    .skills-container {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+
+      .skill-icon {
+        font-size: 3rem;
+        padding-top: 50px;
+        margin: 0 0 1rem 0;
+      }
     }
   }
 
