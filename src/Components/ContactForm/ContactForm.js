@@ -14,7 +14,7 @@ const ContactForm = () => {
   }, []);
 
   return (
-    <div className="contact-form-container">
+    <div className="contact-form-container" id="contact">
       <h1 className="contact-heading" data-aos="zoom-in">
         Contact
       </h1>

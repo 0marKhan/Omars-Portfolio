@@ -12,7 +12,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h1 data-aos="zoom-in">About</h1>
       <div className="about-container">
         <Lottie className="lottie-animation" animationData={rocket} />

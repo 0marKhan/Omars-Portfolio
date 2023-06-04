@@ -13,7 +13,7 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar" id="start">
       <div className="navbar-start">
         <Lottie className="lottie-anim" animationData={deca} />
       </div>

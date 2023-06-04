@@ -32,7 +32,7 @@ const SkillsSection = () => {
   }, []);
 
   return (
-    <div className="skills-section">
+    <div className="skills-section" id="skills-section">
       <div className="skills-content">
         <h1 className="skills-heading" data-aos="zoom">
           Skills

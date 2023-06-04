@@ -15,7 +15,7 @@
       font-size: 1.4rem;
     }
 
-    a {
+    .link-class {
       overflow: hidden;
       position: relative;
       display: inline-block;
@@ -60,6 +60,9 @@
 
       &:hover span {
         transform: translate3d(-200%, 0, 0);
+      }
+      &:hover {
+        cursor: pointer;
       }
     }
   }

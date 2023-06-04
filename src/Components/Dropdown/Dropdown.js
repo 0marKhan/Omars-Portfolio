@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import Button from "@mui/material/Button";
@@ -12,6 +12,7 @@ import WorkIcon from "@mui/icons-material/Work";
 import InfoIcon from "@mui/icons-material/Info";
 import PhoneIcon from "@mui/icons-material/Phone";
 import { styled } from "@mui/material/styles";
+import { MdHome } from "react-icons/md";
 
 const CustomListItemButton = styled(ListItemButton)(({ theme }) => ({
   color: "#fff",
@@ -27,8 +28,12 @@ const CustomListItemButton = styled(ListItemButton)(({ theme }) => ({
   },
 }));
 
+const HomeIcon = styled(MdHome)(({ theme }) => ({
+  fontSize: "1.5rem", // Adjust the size as desired
+}));
+
 export default function TemporaryDrawer() {
-  const [state, setState] = React.useState({
+  const [state, setState] = useState({
     right: false,
   });
 
@@ -41,6 +46,16 @@ export default function TemporaryDrawer() {
     }
 
     setState({ ...state, [anchor]: open });
+  };
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const yOffset = 0; // Adjust this value to offset any fixed headers/navigation bars
+      const y =
+        section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    }
   };
 
   const list = (anchor) => (
@@ -66,12 +81,17 @@ export default function TemporaryDrawer() {
       >
         <List>
           {[
-            { text: "Skills", icon: <CodeIcon /> },
-            { text: "Projects", icon: <WorkIcon /> },
-            { text: "About", icon: <InfoIcon /> },
-            { text: "Contact", icon: <PhoneIcon /> },
-          ].map((item, index) => (
-            <CustomListItemButton key={item.text} disablePadding>
+            { text: "Home", icon: <HomeIcon />, section: "start" },
+            { text: "Skills", icon: <CodeIcon />, section: "skills-section" },
+            { text: "Projects", icon: <WorkIcon />, section: "projects" },
+            { text: "About", icon: <InfoIcon />, section: "about" },
+            { text: "Contact", icon: <PhoneIcon />, section: "contact" },
+          ].map((item) => (
+            <CustomListItemButton
+              key={item.text}
+              disablePadding
+              onClick={() => scrollToSection(item.section)}
+            >
               <ListItemIcon>{item.icon}</ListItemIcon>
               <ListItemText primary={item.text} />
             </CustomListItemButton>

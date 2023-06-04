@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-scroll";
 import { useSpring, animated } from "react-spring";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -34,9 +35,15 @@ const VerticalList = () => {
           data-aos-delay="100"
           className="Skills"
         >
-          <a href="#" data-replace="Skills">
+          <Link
+            className="link-class"
+            to="skills-section"
+            smooth={true}
+            duration={600}
+            data-replace="Skills"
+          >
             <span>Skills</span>
-          </a>
+          </Link>
         </li>
         <li
           data-aos="fade-up"
@@ -44,9 +51,15 @@ const VerticalList = () => {
           data-aos-delay="300"
           className="Projects"
         >
-          <a href="#" data-replace="Projects">
+          <Link
+            className="link-class"
+            to="projects"
+            smooth={true}
+            duration={600}
+            data-replace="Projects"
+          >
             <span>Projects</span>
-          </a>
+          </Link>
         </li>
         <li
           data-aos="fade-up"
@@ -54,9 +67,15 @@ const VerticalList = () => {
           data-aos-delay="500"
           className="About"
         >
-          <a href="#" data-replace="About">
+          <Link
+            className="link-class"
+            to="about"
+            smooth={true}
+            duration={600}
+            data-replace="About"
+          >
             <span>About</span>
-          </a>
+          </Link>
         </li>
         <li
           data-aos="fade-up"
@@ -64,9 +83,15 @@ const VerticalList = () => {
           data-aos-delay="700"
           className="Contact"
         >
-          <a href="#" data-replace="Contact">
+          <Link
+            className="link-class"
+            to="contact"
+            smooth={true}
+            duration={600}
+            data-replace="Contact"
+          >
             <span>Contact</span>
-          </a>
+          </Link>
         </li>
       </animated.ul>
     </div>
