@@ -15,17 +15,16 @@ function Home() {
     <div className="App">
       <Navbar />
       <ScrollNav />
-      {/* <SideNav /> */}
       <div className="flex-container">
         <IntroText />
-        <VerticalList />
-        <FrontImage />
+        {/* <VerticalList />
+        <FrontImage /> */}
       </div>
-      <SkillsSection />
-      <Projects />
-      <About />
-      <ContactForm />
-      <Footer />
+      {/* <SkillsSection /> */}
+      {/* <Projects /> */}
+      {/* <About /> */}
+      {/* <ContactForm /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

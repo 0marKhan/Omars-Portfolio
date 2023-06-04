@@ -1,7 +1,39 @@
 .front-image {
   .lottie-container {
-    margin: 0rem 6rem 8rem 0;
-    height: 25rem;
-    width: 25rem;
+    margin: 1rem 10rem 8rem 0;
+    height: 78%;
+    width: 78%;
+  }
+
+  @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
+  }
+
+  @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  }
+
+  @media screen and (max-width: 620px) {
+  }
+
+  @media screen and (max-width: 415px) {
+  }
+
+  @media screen and (max-width: 412px) {
+  }
+
+  @media screen and (max-width: 394px) {
+  }
+
+  @media screen and (max-width: 391px) {
+  }
+
+  @media screen and (max-width: 376px) {
+    .lottie-container {
+      height: 20rem;
+      width: 20rem;
+    }
+  }
+
+  @media screen and (max-width: 361px) {
+    margin-top: 15%;
   }
 }

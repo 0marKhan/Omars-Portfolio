@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   background-color: #1b1c1e;
-  padding: 15px;
 
   .navbar-start {
     margin-right: auto;
   }
 
   .lottie-anim {
+    padding: 1rem 0 0 1rem;
     height: 3rem;
     width: 3rem;
   }
@@ -35,6 +35,78 @@
           transform: scale(1.1);
           color: #05b59e;
           cursor: pointer;
+        }
+      }
+    }
+  }
+
+  @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
+  }
+
+  @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  }
+
+  @media screen and (max-width: 620px) {
+  }
+
+  @media screen and (max-width: 415px) {
+    .lottie-anim {
+      height: 4rem;
+      width: 4rem;
+    }
+
+    .nav-links {
+      padding-left: 1rem;
+      li {
+        margin: 0 2rem 0 0;
+
+        a {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 412px) {
+  }
+
+  @media screen and (max-width: 394px) {
+  }
+
+  @media screen and (max-width: 391px) {
+  }
+
+  @media screen and (max-width: 376px) {
+    .lottie-anim {
+      height: 3rem;
+      width: 3rem;
+    }
+    .nav-links {
+      margin-right: 0.1rem;
+      li {
+        margin: 0 2rem 0 0;
+        a {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 361px) {
+    .navbar-start {
+      margin-right: auto;
+    }
+
+    .lottie-anim {
+      height: 3rem;
+      width: 3rem;
+    }
+
+    .nav-links {
+      li {
+        margin: 0 2rem 0 0;
+        a {
+          font-size: 1.3rem;
         }
       }
     }
