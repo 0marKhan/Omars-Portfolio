@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 9rem 4rem 0 6rem;
+  width: 60%;
+  margin: 9rem 0rem 0 6rem;
 
   h1 {
     margin: 0;
@@ -16,7 +17,7 @@
   }
 
   .first-line {
-    margin: 0 50% 0 0;
+    margin: 0 15rem 0 0;
   }
 
   .second-line {
@@ -24,106 +25,48 @@
   }
 
   @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
-    margin: 25% 10% 0 20%;
-
-    .first-line {
-      margin: 30% 50% 0 0;
-    }
-
-    .second-line {
-      margin: 0 0 0 0%;
-    }
   }
 
   @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
-    margin: 25% 10% 0 20%;
-
-    .first-line {
-      margin: 30% 50% 0 0;
-    }
-
-    .second-line {
-      margin: 0 0 0 0%;
-    }
   }
 
   @media screen and (max-width: 620px) {
-    .first-line {
-      margin: 0 8% 0 0;
-    }
-
-    .second-line {
-      margin: 0 0 0 -5%;
-    }
   }
 
   @media screen and (max-width: 415px) {
-    margin: 0 0 0 5%;
-
-    h1 {
-      font-size: 2rem;
-    }
-
-    .first-line {
-      margin: 90% 0 0 0;
-    }
-
-    .second-line {
-      margin: 0 0 0 0;
-    }
   }
 
   @media screen and (max-width: 412px) {
-    margin-top: 6%;
   }
 
   @media screen and (max-width: 394px) {
-    margin: 0;
-    align-items: center;
-
-    h1 {
-      font-size: 2rem;
-    }
-
-    .first-line {
-      margin: 85% 40% 0 0;
-    }
-
-    .second-line {
-      margin: 0 0 0 0;
-    }
   }
 
   @media screen and (max-width: 391px) {
-    margin: 0;
-
-    h1 {
-      font-size: 2rem;
-    }
-
-    .first-line {
-      margin: 82% 0 0 0;
-    }
-
-    .second-line {
-      margin: 0 0 0 2%;
-    }
   }
 
   @media screen and (max-width: 376px) {
-    margin: 0;
-    align-items: center;
+    width: 100%;
+    // text-align: left;
+    margin: 0 0 0 0rem;
+    padding-top: 1.5rem;
 
     h1 {
       font-size: 2rem;
+      justify-content: center;
+    }
+
+    .aqua-text {
+      color: #05b59e;
     }
 
     .first-line {
-      margin: 60% 0 0 0;
+      margin: 0;
     }
 
     .second-line {
-      margin: 0 0 0 0;
+      margin: 0;
+      color: #757576;
     }
   }
 

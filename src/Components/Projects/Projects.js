@@ -30,7 +30,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <h1 className="projects-start-title" data-aos="zoom">
         Projects
       </h1>
