@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-import BasicTextFields from "../BasicTextFields/BasicTextFields";
-import MultilineTextFields from "../MultilineTextFields/MultilineTextFields";
+
 import { Email, LinkedIn } from "@mui/icons-material";
 import "./ContactForm.scss";
 import AOS from "aos";
@@ -27,12 +26,20 @@ const ContactForm = () => {
       </div>
       <div className="contact-form">
         <div className="form-column">
-          <BasicTextFields placeholder="Name" />
-          <BasicTextFields placeholder="Email" />
-          <BasicTextFields placeholder="Subject" />
+          <div className="basic-textform">
+            <input type="text" placeholder="Name" />
+          </div>
+          <div className="basic-textform">
+            <input type="text" placeholder="Email" />
+          </div>
+          <div className="basic-textform">
+            <input type="text" placeholder="Subject" />
+          </div>
         </div>
         <div className="form-column">
-          <MultilineTextFields />
+          <div className="multiline">
+            <textarea type="text" placeholder="Message" />
+          </div>
         </div>
       </div>
       <button className="custom-btn btn-16">Submit</button>
