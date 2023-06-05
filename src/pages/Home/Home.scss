@@ -3,8 +3,35 @@
   display: flex;
   gap: 1rem;
 
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 912px) {
     display: flex;
     flex-direction: column;
+  }
+
+  @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
+  }
+
+  @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+  }
+
+  @media screen and (max-width: 620px) {
+  }
+
+  @media screen and (max-width: 415px) {
+  }
+
+  @media screen and (max-width: 412px) {
+  }
+
+  @media screen and (max-width: 394px) {
+  }
+
+  @media screen and (max-width: 391px) {
+  }
+
+  @media screen and (max-width: 376px) {
+  }
+
+  @media screen and (max-width: 361px) {
   }
 }

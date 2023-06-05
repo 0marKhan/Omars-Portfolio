@@ -67,103 +67,189 @@
     }
   }
 
-  // Remaining media queries...
-  @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
-    margin: 0;
+  @media screen and (device-width: 1280px) and (device-height: 800px) {
+    margin: 0rem 0 0 0;
 
     ul {
-      border-left: none;
-      margin: 140px 0px 0 4%;
-
+      margin: 8rem 1rem 0 0;
       li {
-        margin: 20% 10% 0 0;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @media screen and (device-width: 1024px) and (device-height: 600px) {
+    margin: 0rem 0 0 0;
+
+    ul {
+      margin: 4rem 1rem 0 0;
+      li {
         font-size: 1.5rem;
       }
+    }
+  }
+
+  @media screen and (device-width: 912px) and (device-height: 1368px) {
+    margin: 0rem 0 0 0;
+
+    ul {
+      display: flex;
+      margin-bottom: 0.5rem;
+      justify-content: center;
+      border-left: none;
 
       li {
-        margin-top: 20px;
-        display: inline;
-        margin-right: 50px;
+        margin: 1rem 1.5rem 0 0;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
+    margin: 0rem 0 0 0;
+
+    ul {
+      display: flex;
+      margin-bottom: 0.5rem;
+      justify-content: center;
+      border-left: none;
+
+      li {
+        margin: 1rem 1.5rem 0 0;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+    margin: 0rem 0 0 0;
+
+    ul {
+      display: flex;
+      margin-bottom: 0.5rem;
+      justify-content: center;
+      border-left: none;
+
+      li {
+        margin: 1rem 2rem 0 0;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  @media screen and (device-width: 540px) and (device-height: 720px) {
+    margin: 0rem 0 0 0;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      // margin: 0 0 0.5rem 5.6rem;
+      border-left: none;
+
+      li {
+        margin: 1rem 1.6rem 0 0;
+        font-size: 1.2rem;
       }
     }
   }
 
   @media screen and (max-width: 415px) {
-    margin: 0;
+    margin: 0rem 0 0 0;
 
     ul {
+      display: flex;
+      margin: 0 0 0.5rem 1.8rem;
       border-left: none;
-      margin: 90px 0 0 5%;
 
       li {
-        margin: 20% 10% 0 0;
-        font-size: 1.2rem;
+        margin: 1rem 1.5rem 0 0;
+        font-size: 1.3rem;
       }
     }
   }
 
   @media screen and (max-width: 412px) {
+    margin: 0;
     ul {
-      margin: 100px 0px 0 10px;
+      display: flex;
+      margin: 0 0 0.7rem 2.4rem;
       border-left: none;
+      li {
+        margin: 1rem 1.3rem 0 0;
+        font-size: 1.2rem;
+      }
     }
   }
 
   @media screen and (max-width: 394px) {
+    margin: 0;
     ul {
-      margin: 90px 0px 0 8px;
+      display: flex;
+      margin: 0 0 0.7rem 1.8rem;
       border-left: none;
+      li {
+        margin: 1rem 1rem 0 0;
+        font-size: 1.2rem;
+      }
     }
   }
 
-  @media screen and (max-width: 390px) {
-    ul {
-      margin: 90px 0px 0 3%;
-      border-left: none;
-    }
+  @media screen and (max-width: 391px) {
+    margin: 0rem 0 0 0;
 
-    li {
-      margin: 20% 9% 0 0;
-      font-size: 1.2rem;
+    ul {
+      display: flex;
+      margin: 0 0 0.5rem 2.4rem;
+      border-left: none;
+
+      li {
+        margin: 1rem 1.2rem 0 0;
+        font-size: 1.1rem;
+      }
     }
   }
 
   @media screen and (max-width: 376px) {
-    margin: 0;
+    margin: 0rem 0 0 0;
 
     ul {
-      margin: 80px 0px 0 8px;
+      display: flex;
+      margin: 0 0 0.5rem 2.2rem;
       border-left: none;
 
       li {
-        margin: 20% 10% 0 0;
-        font-size: 1.2rem;
-      }
-
-      li {
-        margin-top: 20px;
-        display: inline;
-        margin-right: 20px;
+        margin: 1rem 1rem 0 0;
+        font-size: 1rem;
       }
     }
   }
 
   @media screen and (max-width: 361px) {
-    margin: 0;
+    margin: 0rem 0 0 0;
 
     ul {
-      margin: 60px -5px 0 0;
+      display: flex;
+      margin: 0 0 0.5rem 2rem;
       border-left: none;
 
       li {
-        margin: 20% 10% 0 0;
-        font-size: 1.2rem;
+        margin: 1rem 1.2rem 0 0;
+        font-size: 1rem;
       }
+    }
+  }
+
+  @media screen and (device-width: 280px) and (device-height: 653px) {
+    margin: 0rem 0 0 0;
+
+    ul {
+      display: flex;
+      margin: 0 0 0.5rem 1.5rem;
+      border-left: none;
 
       li {
-        margin-top: 20px;
-        display: inline;
-        margin-right: 20px;
+        margin: 1rem 0.8rem 0 0;
+        font-size: 0.8rem;
       }
     }
   }
