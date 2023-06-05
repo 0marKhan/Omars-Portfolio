@@ -39,14 +39,75 @@
       }
     }
   }
+  @media screen and (device-width: 1280px) and (device-height: 800px) and (-webkit-device-pixel-ratio: 2) {
+    .lottie-anim {
+      height: 5rem;
+      width: 5rem;
+    }
+    .nav-links {
+      li {
+        margin: 1.5rem;
+        a {
+          font-size: 1.6rem;
+        }
+      }
+    }
+  }
+  @media screen and (device-width: 912px) and (device-height: 1368px) and (-webkit-device-pixel-ratio: 2) {
+    .lottie-anim {
+      height: 5rem;
+      width: 5rem;
+    }
+    .nav-links {
+      li {
+        margin: 1.2rem;
+        a {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
 
   @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
+    .lottie-anim {
+      height: 4.5rem;
+      width: 4.5rem;
+    }
+    .nav-links {
+      li {
+        a {
+          font-size: 1.8rem;
+        }
+      }
+    }
   }
 
   @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+    .lottie-anim {
+      height: 4.5rem;
+      width: 4.5rem;
+    }
+    .nav-links {
+      li {
+        a {
+          font-size: 1.8rem;
+        }
+      }
+    }
   }
 
   @media screen and (max-width: 620px) {
+  }
+
+  @media screen and (device-width: 540px) and (device-height: 720px) {
+    .nav-links {
+      li {
+        margin: 1rem;
+        a {
+          font-size: 1.2rem;
+        }
+      }
+    }
   }
 
   @media screen and (max-width: 415px) {
@@ -56,37 +117,72 @@
     }
 
     .nav-links {
-      padding-left: 1rem;
+      margin-left: 1rem;
       li {
-        margin: 0 2rem 0 0;
+        margin: 1rem;
 
         a {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
         }
       }
     }
   }
 
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 413px) {
+    .lottie-anim {
+      height: 3.5rem;
+      width: 3.3rem;
+    }
+    .nav-links {
+      margin-left: 0.8rem;
+
+      li {
+        a {
+          font-size: 1.3rem;
+        }
+      }
+    }
   }
 
   @media screen and (max-width: 394px) {
+    .nav-links {
+      margin-left: 0.8rem;
+
+      li {
+        a {
+          font-size: 1.3rem;
+        }
+      }
+    }
   }
 
   @media screen and (max-width: 391px) {
+    .nav-links {
+      margin-left: 0.8rem;
+
+      li {
+        margin: 0.7rem;
+        a {
+          font-size: 1.2rem;
+        }
+      }
+    }
   }
 
   @media screen and (max-width: 376px) {
     .lottie-anim {
-      height: 3rem;
-      width: 3rem;
+      height: 2.5rem;
+      width: 2.5rem;
+      // padding-right: 0.5rem;
     }
+
     .nav-links {
-      margin-right: 0.1rem;
+      margin-left: 0.8rem;
+
       li {
-        margin: 0 2rem 0 0;
+        margin: 0.7rem;
         a {
-          font-size: 1.3rem;
+          font-size: 1rem;
         }
       }
     }
@@ -104,9 +200,25 @@
 
     .nav-links {
       li {
-        margin: 0 2rem 0 0;
+        margin-right: 0.8rem;
         a {
-          font-size: 1.3rem;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (device-width: 280px) and (device-height: 653px) {
+    .lottie-anim {
+      height: 2rem;
+      width: 2rem;
+    }
+    .nav-links {
+      li {
+        margin: 0.5rem;
+        a {
+          margin: 0;
+          font-size: 1rem;
         }
       }
     }

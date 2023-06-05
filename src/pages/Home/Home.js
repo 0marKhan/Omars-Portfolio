@@ -17,8 +17,8 @@ function Home() {
       <ScrollNav />
       <div className="flex-container">
         <IntroText />
-        {/* <VerticalList />
-        <FrontImage /> */}
+        <VerticalList />
+        <FrontImage />
       </div>
       {/* <SkillsSection /> */}
       {/* <Projects /> */}

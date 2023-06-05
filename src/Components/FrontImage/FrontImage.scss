@@ -5,35 +5,105 @@
     width: 78%;
   }
 
+  @media screen and (device-width: 1280px) and (device-height: 800px) {
+    .lottie-container {
+      margin: 3rem 5rem 0 0rem;
+      height: 30rem;
+      width: 30rem;
+    }
+  }
+
+  @media screen and (device-width: 1024px) and (device-height: 600px) {
+    .lottie-container {
+      margin: 2rem 5rem 0 0rem;
+      height: 23rem;
+      width: 23rem;
+    }
+  }
+
+  @media screen and (device-width: 912px) and (device-height: 1368px) {
+    .lottie-container {
+      margin: 3rem 0 0 9.5rem;
+      height: 35rem;
+      width: 35rem;
+    }
+  }
+
   @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
+    .lottie-container {
+      margin: 0 0 0 7rem;
+      height: 35rem;
+      width: 35rem;
+    }
   }
 
   @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
+    .lottie-container {
+      margin: 0 0 0 8rem;
+      height: 30rem;
+      width: 30rem;
+    }
   }
 
   @media screen and (max-width: 620px) {
   }
 
+  @media screen and (device-width: 540px) and (device-height: 720px) {
+    .lottie-container {
+      margin: 1rem 0 0 6rem;
+      height: 21rem;
+      width: 21rem;
+    }
+  }
+
   @media screen and (max-width: 415px) {
+    .lottie-container {
+      margin: 2rem 0 0 1rem;
+      height: 23rem;
+      width: 23rem;
+    }
   }
 
   @media screen and (max-width: 412px) {
   }
 
   @media screen and (max-width: 394px) {
+    .lottie-container {
+      margin: 0 0 0 0.8rem;
+      height: 22rem;
+      width: 22rem;
+    }
   }
 
   @media screen and (max-width: 391px) {
+    .lottie-container {
+      margin: 0 0rem 0 0.5rem;
+      height: 23rem;
+      width: 23rem;
+    }
   }
 
   @media screen and (max-width: 376px) {
     .lottie-container {
+      margin: 0 0 0 2rem;
+      height: 18rem;
+      width: 18rem;
+    }
+  }
+
+  @media screen and (max-width: 361px) {
+    .lottie-container {
+      margin: 0 0 0 1rem;
       height: 20rem;
       width: 20rem;
     }
   }
 
-  @media screen and (max-width: 361px) {
-    margin-top: 15%;
+  @media screen and (device-width: 280px) and (device-height: 653px) {
+    .lottie-container {
+      margin: 1rem 0 0 1rem;
+      height: 15rem;
+      width: 15rem;
+    }
   }
 }
