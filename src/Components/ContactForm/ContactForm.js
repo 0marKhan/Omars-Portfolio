@@ -42,7 +42,9 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
-      <button className="custom-btn btn-16">Submit</button>
+      <div className="contact-button">
+        <button className="custom-btn btn-16">Submit</button>
+      </div>
     </div>
   );
 };

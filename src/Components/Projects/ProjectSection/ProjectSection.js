@@ -15,7 +15,11 @@ const ProjectSection = (props) => {
     <div className="container">
       <div className="content-left" data-aos="fade-right">
         <h2>{props.title}</h2>
-        <Technologies techs={props.techs} data-aos="fade-right" />
+        <Technologies
+          className="techs"
+          techs={props.techs}
+          data-aos="fade-right"
+        />
         <span className="details">{props.desc}</span>
         <div className="project-buttons">
           <button className="button button--hyperion">

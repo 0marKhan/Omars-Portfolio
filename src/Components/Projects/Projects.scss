@@ -1,7 +1,6 @@
 .projects {
   background-color: white;
-  height: 300vh;
-  height: 300dvh;
+  padding-bottom: 7rem;
   margin: 0 0 0 0;
   margin: 0 0 0 0;
   font-family: "Roboto Slab", sans-serif;
@@ -17,6 +16,9 @@
     margin-top: 4rem;
   }
 
+  @media screen and (max-width: 945px) {
+  }
+
   @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
   }
 
@@ -27,22 +29,28 @@
   }
 
   @media screen and (max-width: 415px) {
+    height: 140rem;
   }
 
   @media screen and (max-width: 412px) {
   }
 
   @media screen and (max-width: 394px) {
+    height: 140em;
   }
 
   @media screen and (max-width: 391px) {
+    height: 144rem;
   }
 
   @media screen and (max-width: 376px) {
-    width: 90vh;
+    height: 142rem;
   }
 
   @media screen and (max-width: 361px) {
-    margin-top: 15%;
+  }
+
+  @media screen and (max-width: 281px) {
+    height: 170rem;
   }
 }

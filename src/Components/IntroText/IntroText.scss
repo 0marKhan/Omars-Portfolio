@@ -37,7 +37,7 @@
   }
 
   @media screen and (device-width: 1024px) and (device-height: 600px) {
-    width: 60%;
+    width: 40%;
     margin: 7rem 0 0 3rem;
 
     h1 {
@@ -59,10 +59,10 @@
   }
 
   @media screen and (device-width: 912px) and (device-height: 1368px) and (-webkit-device-pixel-ratio: 2) {
-    margin: 13rem 0 0 5rem;
+    margin: 13rem 0 0 3rem;
     width: 90%;
     h1 {
-      font-size: 4rem;
+      font-size: 4.3rem;
       text-align: left;
     }
     .first-line {
@@ -71,7 +71,7 @@
   }
 
   @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
-    margin: 9rem 0 0 5rem;
+    margin: 9rem 0 0 3rem;
     width: 90%;
     h1 {
       font-size: 3.5rem;
@@ -83,10 +83,10 @@
   }
 
   @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
-    margin: 9rem 0 0 6rem;
-    width: 80%;
+    margin: 9rem 0 0 3.5rem;
+    width: 90%;
     h1 {
-      font-size: 3rem;
+      font-size: 3.5rem;
     }
     .first-line {
       margin-right: 18rem;
@@ -94,13 +94,13 @@
   }
 
   @media screen and (device-width: 540px) and (device-height: 720px) {
-    margin-top: 2rem;
+    margin: 4rem 0 0 3rem;
     justify-content: center;
-    width: 80%;
+    width: 85%;
 
     h1 {
       text-align: left;
-      font-size: 2.6rem;
+      font-size: 2.3rem;
     }
     .first-line {
       margin-right: 12rem;
@@ -110,11 +110,11 @@
   @media screen and (max-width: 415px) {
     width: 80%;
     text-align: left;
-    margin: 3rem 0 0 2.5rem;
+    margin: 4rem 0 0 2.6rem;
     padding-top: 1.5rem;
 
     h1 {
-      font-size: 2.6rem;
+      font-size: 3rem;
       justify-content: center;
     }
     .first-line {
@@ -128,10 +128,13 @@
 
   @media screen and (max-width: 412px) {
     margin: 4rem 0 0 3rem;
+    h1 {
+      font-size: 3rem;
+    }
   }
 
   @media screen and (max-width: 394px) {
-    margin: 4rem 0 0 2.4rem;
+    margin: 4rem 0 0 3rem;
     width: 80%;
     h1 {
       font-size: 2.8rem;
@@ -140,11 +143,11 @@
   }
 
   @media screen and (max-width: 391px) {
-    width: 70%;
-    margin: 2rem 0 0 2.9rem;
+    width: 80%;
+    margin: 5rem 0 0 2.9rem;
 
     h1 {
-      font-size: 2.4rem;
+      font-size: 2.8rem;
       justify-content: center;
     }
   }
@@ -153,21 +156,30 @@
     width: 70%;
     text-align: left;
     margin-top: 2rem;
-    margin-left: 3.7rem;
+    margin-left: 3.5rem;
     justify-content: center;
     padding-top: 1.5rem;
 
     h1 {
-      font-size: 2.2rem;
+      font-size: 2.4rem;
       justify-content: center;
     }
   }
 
   @media screen and (max-width: 361px) {
-    margin: 1rem 0 0 2.4rem;
+    margin: 3rem 0 0 3rem;
     width: 80%;
     h1 {
-      font-size: 2.4rem;
+      font-size: 2.6rem;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 321px) {
+    margin: 3rem 0 0 2rem;
+    width: 80%;
+    h1 {
+      font-size: 2.2rem;
       justify-content: center;
     }
   }

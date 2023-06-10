@@ -1,9 +1,7 @@
-// ProjectSection.scss
-
 .container {
   display: flex;
   margin-top: 5rem;
-  // align-items: center;
+
   .content-left {
     order: 1;
     margin: 0 3rem 0 7rem;
@@ -11,23 +9,25 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+
     h2 {
       margin-bottom: 1rem;
     }
+
     .details {
       text-align: left;
       justify-content: left;
     }
   }
+
   .image-section {
     order: 2;
     margin: 1.5rem 4rem 0 0;
 
     img {
       margin-left: auto;
-
-      // max-width: 90%;
       width: 104%;
+      min-width: 400px;
     }
 
     .project-image {
@@ -39,6 +39,154 @@
       }
     }
   }
+  @media screen and (device-width: 1024px) and (device-height: 600px) {
+    .image-section {
+      img {
+        margin: 0 1.5rem 0 1.5rem;
+        width: 350px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 945px) {
+    flex-direction: column;
+
+    .content-left {
+      order: 2;
+      margin: 2rem 4rem 0 5.5rem;
+      align-items: center;
+      .details {
+        text-align: left !important;
+      }
+
+      h2 {
+        margin-bottom: 1rem;
+      }
+
+      .details {
+        text-align: center;
+        justify-content: center;
+        margin: 0 0.5rem 0 0.5rem;
+      }
+    }
+
+    .image-section {
+      order: 1;
+      margin: 0;
+
+      img {
+        margin: 0 1.5rem 0 1.5rem;
+        width: 80%;
+        min-width: 300px;
+      }
+    }
+  }
+
+  @media screen and (device-width: 768px) and (device-height: 1024px) {
+    .content-left {
+      .details {
+        margin: 0 0.5rem 0 0;
+      }
+    }
+  }
+
+  @media screen and (device-width: 540px) and (device-height: 720px) {
+    .content-left {
+      margin: 0 2.4rem 0 2.9rem;
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    .content-left {
+      margin: 0 0.5rem 0 0.5rem;
+
+      .details {
+        text-align: left;
+        margin: 0 0.8rem 0 0.8rem;
+      }
+    }
+    .image-section {
+      img {
+        width: 380px;
+        margin: 0 0.5rem 0 0.5rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 394px) {
+    .content-left {
+      margin: 0 0.8rem 0 0.8rem;
+      .details {
+        margin: 0 0.4rem 0 0.4rem;
+      }
+    }
+    .image-section {
+      img {
+        width: 365px;
+        margin: 0 0.5rem 0 0.5rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 391px) {
+    .content-left {
+      margin: 0 0.8rem 0 0.8rem;
+      .details {
+        margin: 0 0.4rem 0 0.4rem;
+      }
+    }
+    .image-section {
+      img {
+        width: 360px;
+        margin: 0 0.5rem 0 0.5rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 376px) {
+    .content-left {
+      margin: 0 0.5rem 0 0.5rem;
+
+      .details {
+        margin: 0 0.5rem 0 0.5rem;
+        text-align: left;
+      }
+    }
+
+    .image-section {
+      img {
+        margin: 0 0.5rem 0 0.5rem;
+        width: 350px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 361px) {
+    .content-left {
+      margin: 0 0.8rem 0 0.8rem;
+    }
+    .image-section {
+      img {
+        width: 335px;
+        margin: 0 0.5rem 0 0.5rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .image-section {
+      img {
+        width: 200px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 281px) {
+    .image-section {
+      img {
+      }
+    }
+  }
 }
 
 .project-buttons {
@@ -47,7 +195,7 @@
     cursor: pointer;
     background: #e7e7e7;
     border: none;
-    padding: 1rem 2rem; /* Updated padding value */
+    padding: 1rem 2rem;
     margin: 2rem 1rem 0 0;
     font-family: inherit;
     font-size: inherit;
@@ -67,7 +215,7 @@
   .button--hyperion {
     font-family: Roboto Slab, monospace;
     font-weight: 500;
-    padding: 0.5rem 1.5rem; /* Updated padding value */
+    padding: 0.5rem 1.5rem;
     border: 1px solid #1b1c1e;
     overflow: hidden;
     color: #fff;
@@ -116,5 +264,17 @@
   .button--hyperion:hover::before {
     transform: scale3d(0, 1, 1);
     transform-origin: 0% 50%;
+  }
+
+  @media screen and (max-width: 376px) {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .project-buttons {
+    .button {
+      padding: 1rem 1rem;
+    }
   }
 }
