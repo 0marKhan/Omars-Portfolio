@@ -1,7 +1,7 @@
 .list-vals {
   font-family: "Roboto Slab", sans-serif;
   color: white;
-  margin: 0rem 2.5rem 0 0rem;
+  margin: 1rem 2.5rem 0 0rem;
 
   ul {
     list-style-type: none;
@@ -89,8 +89,23 @@
     }
   }
 
+  @media screen and (max-width: 945px) {
+    ul {
+      display: flex;
+      margin-bottom: 0.5rem;
+      margin-left: 4.8rem;
+      justify-content: center;
+      border-left: none;
+
+      li {
+        margin: 1rem 3.5rem 0 0;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
   @media screen and (device-width: 912px) and (device-height: 1368px) {
-    margin: 0rem 0 0 0;
+    margin: 0rem 3rem 0 0;
 
     ul {
       display: flex;
@@ -99,14 +114,14 @@
       border-left: none;
 
       li {
-        margin: 1rem 1.5rem 0 0;
+        margin: 1rem 4rem 0 0;
         font-size: 2rem;
       }
     }
   }
 
   @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
-    margin: 0rem 0 0 0;
+    margin: 0rem 3rem 0 0;
 
     ul {
       display: flex;
@@ -115,14 +130,14 @@
       border-left: none;
 
       li {
-        margin: 1rem 1.5rem 0 0;
+        margin: 1rem 2.5rem 0 0;
         font-size: 2rem;
       }
     }
   }
 
   @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
-    margin: 0rem 0 0 0;
+    margin: 0rem 4rem 0 0;
 
     ul {
       display: flex;
@@ -131,8 +146,8 @@
       border-left: none;
 
       li {
-        margin: 1rem 2rem 0 0;
-        font-size: 1.5rem;
+        margin: 1rem 3rem 0 0;
+        font-size: 1.8rem;
       }
     }
   }
@@ -142,12 +157,12 @@
 
     ul {
       display: flex;
-      justify-content: center;
-      // margin: 0 0 0.5rem 5.6rem;
+
+      margin: 0 0rem 0.5rem 1rem;
       border-left: none;
 
       li {
-        margin: 1rem 1.6rem 0 0;
+        margin: 1rem 2rem 0 0;
         font-size: 1.2rem;
       }
     }
@@ -158,7 +173,7 @@
 
     ul {
       display: flex;
-      margin: 0 0 0.5rem 1.8rem;
+      margin: 0 0 0.5rem 1.2rem;
       border-left: none;
 
       li {
@@ -172,7 +187,7 @@
     margin: 0;
     ul {
       display: flex;
-      margin: 0 0 0.7rem 2.4rem;
+      margin: 0 0 0.7rem 0.5rem;
       border-left: none;
       li {
         margin: 1rem 1.3rem 0 0;
@@ -185,7 +200,7 @@
     margin: 0;
     ul {
       display: flex;
-      margin: 0 0 0.7rem 1.8rem;
+      margin: 0 0 0.7rem 0rem;
       border-left: none;
       li {
         margin: 1rem 1rem 0 0;
@@ -199,7 +214,7 @@
 
     ul {
       display: flex;
-      margin: 0 0 0.5rem 2.4rem;
+      margin: 0 0 0.5rem 0rem;
       border-left: none;
 
       li {
@@ -213,8 +228,9 @@
     margin: 0rem 0 0 0;
 
     ul {
+      width: 70%;
       display: flex;
-      margin: 0 0 0.5rem 2.2rem;
+      margin: 0 0 0.5rem 3rem;
       border-left: none;
 
       li {
@@ -229,11 +245,24 @@
 
     ul {
       display: flex;
-      margin: 0 0 0.5rem 2rem;
+      margin: 0 0 0.5rem 3rem;
       border-left: none;
 
       li {
-        margin: 1rem 1.2rem 0 0;
+        margin: 1rem 1rem 0 0;
+        font-size: 1rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 321px) {
+    ul {
+      display: flex;
+      margin: 0 0 0.5rem 2.5rem;
+      border-left: none;
+
+      li {
+        margin: 1rem 0.7rem 0 0;
         font-size: 1rem;
       }
     }
@@ -244,7 +273,7 @@
 
     ul {
       display: flex;
-      margin: 0 0 0.5rem 1.5rem;
+      margin: 0 0 0.5rem 2rem;
       border-left: none;
 
       li {
