@@ -1,13 +1,12 @@
 .footer {
   position: relative;
   background-color: #000;
-  height: 50vh;
-  overflow: hidden;
   font-family: "Roboto Slab", sans-serif;
   color: #fff;
 
   .flex-row {
     margin-top: 2rem;
+    margin-right: 1rem;
     display: flex;
     justify-content: center;
     gap: 10rem;
@@ -15,19 +14,21 @@
     .flex-col {
       display: flex;
       flex-flow: column;
-      width: 25%;
+
+      align-items: center;
+      width: 30%;
     }
     p {
-      width: 62%;
-      margin: 0rem 0 0 2.8rem;
+      width: 55%;
+      // margin: 0rem 0 0 2.8rem;
       text-align: left;
       font-size: 1rem;
       padding-left: 1rem;
     }
     a {
       width: 5%;
-      margin-left: 5rem;
       font-size: 1rem;
+      margin-right: 3.5rem;
       transition: transform 0.2s;
       text-decoration: none;
       color: white;
@@ -40,12 +41,49 @@
   }
 
   .footer-bottom {
-    margin-top: 2rem;
+    margin-top: 0rem;
+    margin-right: 1.5rem;
     display: flex;
     justify-content: center;
     .lottie {
       height: 3rem;
       width: 3rem;
+    }
+  }
+
+  @media screen and (device-width: 540px) and (device-height: 720px) {
+    .flex-row {
+      gap: 1rem;
+      .flex-col {
+        width: 60%;
+      }
+      p {
+        width: 70%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 415px) {
+    .flex-row {
+      gap: 1rem;
+      .flex-col {
+        width: 60%;
+      }
+      p {
+        width: 70%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 376px) {
+    .flex-row {
+      gap: 1rem;
+      .flex-col {
+        width: 60%;
+      }
+      p {
+        width: 70%;
+      }
     }
   }
 }

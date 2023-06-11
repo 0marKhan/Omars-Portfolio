@@ -25,7 +25,7 @@ function Home() {
       <Projects />
       <About />
       <ContactForm />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
