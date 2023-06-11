@@ -1,4 +1,6 @@
 .contact-form-container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   font-family: Roboto Slab, sans-serif;
 
@@ -14,7 +16,7 @@
 
     margin-top: 4rem;
     .contact-text {
-      margin: 0 10rem 0 8.5rem;
+      margin: 0 12rem 0 0rem;
       color: #fff;
       font-size: 1.2rem;
       text-align: left;
@@ -133,13 +135,53 @@ button {
 .btn-16:active {
   top: 2px;
 }
+
+@media screen and (max-width: 1113px) {
+  .contact-form-container {
+    .contact-details {
+      margin: 0;
+      .contact-text {
+        margin: 2rem 10.5rem 0 0;
+      }
+    }
+  }
+
+  .contact-button {
+    margin-right: 31.5rem;
+    button {
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .contact-form-container {
+    .contact-details {
+      .contact-text {
+        margin-left: 2.75rem;
+      }
+    }
+    .contact-form {
+      width: 85%;
+    }
+  }
+  .contact-button {
+    margin-right: 37rem;
+  }
+}
+
+@media screen and (device-width: 540px) and (device-height: 720px) {
+  .contact-button {
+    margin-right: 34.5rem;
+  }
+}
+
 @media screen and (max-width: 414px) {
   .contact-form-container {
     .contact-details {
       margin: 0;
       .contact-text {
-        width: 83%;
-        margin: 2rem 1rem 0 1rem;
+        width: 85%;
+        margin: 2rem 2rem 0 0rem;
       }
     }
     .contact-form {
@@ -164,23 +206,33 @@ button {
   }
   .contact-button {
     button {
-      margin: -4rem 0 1rem 15.5rem;
+      margin: -4rem 0 1rem 51rem;
     }
   }
 }
 
 @media screen and (max-width: 394px) {
+  .contact-form-container {
+    .contact-details {
+      margin-left: 1rem;
+    }
+  }
   .contact-button {
     button {
-      margin: -1rem 0 1rem 14rem;
+      margin: -1rem 0 1rem 50rem;
     }
   }
 }
 
 @media screen and (max-width: 391px) {
+  .contact-form-container {
+    .contact-details {
+      margin-left: 1.5rem;
+    }
+  }
   .contact-button {
     button {
-      margin: -1rem 0 1rem 14rem;
+      margin: -1rem 0 1rem 49.5rem;
     }
   }
 }
@@ -217,21 +269,29 @@ button {
   }
   .contact-button {
     button {
-      margin: -4rem 0 1rem 13rem;
+      margin: -4rem 0 1rem 48.5rem;
     }
   }
 }
 
 @media screen and (max-width: 361px) {
+  .contact-form-container {
+    .contact-details {
+      margin-left: 0.6rem;
+    }
+  }
   .contact-button {
     button {
-      margin: -1rem 0 1rem 12rem;
+      margin: -1rem 0 1rem 48rem;
     }
   }
 }
 
 @media screen and (max-width: 321px) {
   .contact-form-container {
+    .contact-details {
+      margin-left: 0.5rem;
+    }
     .contact-form {
       margin: 0 1.2rem 2rem 1rem;
       .form-column {
@@ -254,7 +314,7 @@ button {
   }
   .contact-button {
     button {
-      margin: -4rem 0 1rem 9rem;
+      margin: -4rem 0 1rem 46rem;
     }
   }
 }

@@ -87,7 +87,7 @@
         width: 15rem;
       }
       .about-description {
-        margin: 0 1rem 0 1rem;
+        margin: 0 1.5rem 0 1.5rem;
         font-size: 1rem;
       }
     }
@@ -114,12 +114,17 @@
         width: 15rem;
       }
       .about-description {
-        margin: 0 1rem 0 1rem;
+        margin: 0 1.5rem 0 1.5rem;
         font-size: 1rem;
       }
     }
   }
 
-  @media screen and (max-width: 361px) {
+  @media screen and (max-width: 321px) {
+    .about-container {
+      .about-description {
+        margin: 0 1.5rem 0 1.5rem;
+      }
+    }
   }
 }
