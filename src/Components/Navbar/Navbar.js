@@ -21,7 +21,7 @@ const Navbar = () => {
         <ul className="nav-links">
           <li>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/omar-kkhan/"
               className="font-class"
               target="_blank"
               rel="noopener noreferrer"
@@ -31,7 +31,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="https://github.com/0marKhan"
               className="font-class"
               target="_blank"
               rel="noopener noreferrer"
