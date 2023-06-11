@@ -3,6 +3,18 @@ import Lottie from "lottie-react";
 import deca from "./deca.json";
 
 const Footer = () => {
+  const openEmailClient = () => {
+    const recipientEmail = "omakhan98@gmail.com";
+    const subject = ""; // You can customize the subject if needed
+    const body = ""; // You can customize the body if needed
+
+    const emailUrl = `https://mail.google.com/mail/?view=cm&to=${encodeURIComponent(
+      recipientEmail
+    )}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    window.open(emailUrl);
+  };
+
   return (
     <footer className="footer">
       <div className="flex-row">
@@ -17,13 +29,23 @@ const Footer = () => {
         </div>
         <div className="flex-col">
           <h1 className="footer-col-heading">Follow me</h1>
-          <a href="#" target="_blank">
+          <a href="#" onClick={openEmailClient} rel="noopener noreferrer">
             Email
           </a>
-          <a href="#" className="font-class" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/omar-kkhan/"
+            className="font-class"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             LinkedIn
           </a>
-          <a href="#" className="font-class" target="_blank">
+          <a
+            href="https://github.com/0marKhan"
+            className="font-class"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Github
           </a>
         </div>
