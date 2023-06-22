@@ -14,11 +14,18 @@ const ContactForm = () => {
   const [from_email, setFrom_Email] = useState("");
   const [from_name, setFrom_Name] = useState("");
   const [message, setMessage] = useState("");
+  const [emailError, setEmailError] = useState("");
 
   const formRef = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    // Check if email is valid
+    if (!validateEmail(from_email)) {
+      setEmailError("Please enter a valid email");
+      return;
+    }
 
     const emailContent = {
       to_name: to_name,
@@ -45,12 +52,18 @@ const ContactForm = () => {
           setFrom_Email("");
           setFrom_Name("");
           setMessage("");
+          setEmailError("");
         },
         (error) => {
           console.log(error.text);
           toast.error("Message not sent");
         }
       );
+  };
+
+  const validateEmail = (email) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
   };
 
   useEffect(() => {
@@ -86,13 +99,14 @@ const ContactForm = () => {
             </div>
             <div className="basic-textform">
               <input
-                type="text"
+                type="email"
                 name="from_email"
                 placeholder="Email"
                 value={from_email}
                 onChange={(event) => setFrom_Email(event.target.value)}
                 required
               />
+              {emailError && <p className="error-message">{emailError}</p>}
             </div>
             <div className="basic-textform">
               <input
@@ -145,6 +159,10 @@ const ContactForm = () => {
             white-space: nowrap;
           }
 
+          .error-message {
+            color: red;
+            font-size: 12px;
+          }
         `}
       </style>
       <ToastContainer />

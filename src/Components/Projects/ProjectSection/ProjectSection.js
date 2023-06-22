@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import VanillaTilt from "vanilla-tilt";
 import { Tilt } from "react-tilt";
+import { Link } from "react-router-dom";
 
 const ProjectSection = (props) => {
   useEffect(() => {
@@ -22,16 +23,20 @@ const ProjectSection = (props) => {
         />
         <span className="details">{props.desc}</span>
         <div className="project-buttons">
-          <button className="button button--hyperion">
-            <span>
-              <span>See Live</span>
-            </span>
-          </button>
-          <button className="button button--hyperion">
-            <span>
-              <span>Source Code</span>
-            </span>
-          </button>
+          <Link to={props.liveUrl} target="_blank">
+            <button className="button button--hyperion">
+              <span>
+                <span>See Live</span>
+              </span>
+            </button>
+          </Link>
+          <Link to={props.sourceCodeUrl} target="_blank">
+            <button className="button button--hyperion">
+              <span>
+                <span>Source Code</span>
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
       <div className="image-section" data-aos="fade-down">
