@@ -3,6 +3,7 @@
   margin-top: 5rem;
 
   .content-left {
+    width: 90rem;
     order: 1;
     margin: 0 3rem 0 7rem;
     display: flex;
@@ -40,6 +41,9 @@
     }
   }
   @media screen and (device-width: 1024px) and (device-height: 600px) {
+    .content-left {
+      width: auto;
+    }
     .image-section {
       img {
         margin: 0 1.5rem 0 1.5rem;
@@ -52,6 +56,7 @@
     flex-direction: column;
 
     .content-left {
+      width: auto;
       order: 2;
       margin: 2rem 4rem 0 5.5rem;
       align-items: center;
@@ -81,9 +86,20 @@
       }
     }
   }
+  @media screen and (device-width: 912px) and (device-height: 1368px) {
+    .content-left {
+      width: auto;
+    }
+  }
+  @media screen and (device-width: 820px) and (device-height: 1180px) {
+    .content-left {
+      width: auto;
+    }
+  }
 
   @media screen and (device-width: 768px) and (device-height: 1024px) {
     .content-left {
+      width: auto;
       .details {
         margin: 0 0.5rem 0 0;
       }
@@ -92,12 +108,14 @@
 
   @media screen and (device-width: 540px) and (device-height: 720px) {
     .content-left {
+      width: auto;
       margin: 0 2.4rem 0 2.9rem;
     }
   }
 
   @media screen and (max-width: 415px) {
     .content-left {
+      width: auto;
       margin: 0 0.5rem 0 0.5rem;
 
       .details {
@@ -145,6 +163,7 @@
 
   @media screen and (max-width: 376px) {
     .content-left {
+      width: auto;
       margin: 0 0.5rem 0 0.5rem;
 
       .details {
@@ -174,6 +193,9 @@
   }
 
   @media screen and (max-width: 320px) {
+    .content-left {
+      width: auto;
+    }
     .image-section {
       img {
         width: 200px;
