@@ -14,9 +14,11 @@ import {
   SiMongodb,
   SiReactnative,
   SiNodeDotJs,
-  SiBootstrap, // Added Bootstrap icon
-  SiNextdotjs, // Added Next.js icon
+  SiBootstrap,
+  SiNextdotjs,
+  SiStyledcomponents,
 } from "react-icons/si";
+
 import { IoLogoPython } from "react-icons/io";
 import { FiFigma } from "react-icons/fi";
 import { DiNodejs } from "react-icons/di";
@@ -101,9 +103,6 @@ const SkillsSection = () => {
             Sass
           </div>
 
-          {/* <DiNodejs className="skill-icon" title="Node.js" /> */}
-          {/* <FaNodeJs className="skill-icon" title="Express.js" /> */}
-
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -122,8 +121,6 @@ const SkillsSection = () => {
             Next.js
           </div>
 
-          {/* <FiFigma className="skill-icon" title="Figma" /> */}
-
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -131,6 +128,18 @@ const SkillsSection = () => {
           >
             <SiGit className="skill-icon" title="Git" />
             Git
+          </div>
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiStyledcomponents
+              className="skill-icon"
+              title="Styled Components"
+            />{" "}
+            {/* Add Styled Components icon */}
+            Styled Components
           </div>
         </div>
       </div>

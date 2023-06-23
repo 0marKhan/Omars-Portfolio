@@ -60,7 +60,7 @@
   }
 
   @media screen and (max-width: 1073px) {
-    height: 70rem;
+    height: 75rem;
   }
 
   @media screen and (device-width: 912px) and (device-height: 1368px) {
@@ -91,7 +91,7 @@
 
   @media screen and (max-width: 798px) {
     overflow: hidden;
-    height: 120rem;
+    height: 125rem;
   }
 
   @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
@@ -105,7 +105,7 @@
   }
 
   @media screen and (device-width: 540px) and (device-height: 720px) {
-    height: 150vh;
+    height: 153vh;
 
     margin-top: 40vh;
 
@@ -121,7 +121,7 @@
   }
 
   @media screen and (max-width: 415px) {
-    height: 65rem;
+    height: 69rem;
     margin-top: 30vh;
 
     .skills-icons {
@@ -139,7 +139,7 @@
 
   @media screen and (max-width: 391px) {
     overflow-x: hidden;
-    height: 55rem;
+    height: 64rem;
     margin-top: 15rem;
     .skills-content {
       .skills-icons {
@@ -151,7 +151,7 @@
   }
 
   @media screen and (max-width: 376px) {
-    height: 53rem;
+    height: 58rem;
     margin-top: 5rem;
     // padding-top: 1px;
 
@@ -169,6 +169,10 @@
 
   @media screen and (max-width: 361px) {
     height: 130vh;
+  }
+
+  @media screen and (max-width: 321px) {
+    height: 58rem;
   }
 
   @media screen and (device-width: 280px) and (device-height: 653px) {
