@@ -138,7 +138,6 @@ const SkillsSection = () => {
               className="skill-icon"
               title="Styled Components"
             />{" "}
-            {/* Add Styled Components icon */}
             Styled Components
           </div>
         </div>
