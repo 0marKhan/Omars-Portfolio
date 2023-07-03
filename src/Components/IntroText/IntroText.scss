@@ -127,7 +127,10 @@
   }
 
   @media screen and (device-width: 414px) and (device-height: 736px) {
-    margin: 0 0 0 2rem;
+    margin: 0 0 0 2.7rem;
+    h1 {
+      font-size: 2.8rem;
+    }
   }
 
   @media screen and (max-width: 412px) {
@@ -189,7 +192,7 @@
   }
 
   @media screen and (max-width: 321px) {
-    margin: 3rem 0 0 2rem;
+    margin: 3rem 0 0 2.4rem;
     width: 80%;
     h1 {
       font-size: 2.2rem;
