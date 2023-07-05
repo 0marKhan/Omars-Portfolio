@@ -143,7 +143,7 @@
     .contact-details {
       margin: 0;
       .contact-text {
-        margin: 2rem 9.5rem 0 0;
+        margin: 2rem 10.2rem 0 0;
       }
     }
   }
@@ -152,32 +152,36 @@
     .contact-button {
       button {
         margin-right: 0;
-        margin-left: 21rem;
+        margin-left: 22rem;
       }
     }
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 595px) {
   .contact-form-container {
     .contact-details {
       .contact-text {
-        margin-left: 2.75rem;
+        margin-left: 3.05rem;
       }
     }
     .contact-form {
       width: 85%;
     }
   }
-  .contact-button {
-    margin-right: 37rem;
+  .contact-form-container {
+    .contact-button {
+      button {
+        margin-left: 17rem;
+      }
+    }
   }
 }
 
 @media screen and (device-width: 540px) and (device-height: 720px) {
   .contact-form-container {
     .contact-button {
-      margin-left: 1.3rem;
+      margin-left: 1.9rem;
     }
   }
 }
