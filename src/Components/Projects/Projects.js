@@ -16,7 +16,7 @@ const projectDetails = [
     title: "TMovies",
     technologiesUsed: ["React.js", "tailwindcss", "Material UI", "Redux"],
     description:
-      "A movie website made with react.js, tailwindcss, material UI and redux that makes api calls to show different movies, among which you can search or click for on them for details. Deployed on netlify",
+      "A movie website that makes API calls to TMBD and accesses movies, lets you see their details, ratings and descriptions. You can also search from movies in the list",
     imageUrl: Movie,
     liveLink: "https://tmovie1.netlify.app",
     sourceCodeLink: "https://github.com/0marKhan/movie-app",
