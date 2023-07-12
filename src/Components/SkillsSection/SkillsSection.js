@@ -17,6 +17,7 @@ import {
   SiBootstrap,
   SiNextdotjs,
   SiStyledcomponents,
+  SiRedux, // Import the SiRedux icon from the react-icons/si library
 } from "react-icons/si";
 
 import { IoLogoPython } from "react-icons/io";
@@ -40,6 +41,7 @@ const SkillsSection = () => {
           Skills
         </h1>
         <div className="skills-icons">
+          {/* HTML */}
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -49,6 +51,7 @@ const SkillsSection = () => {
             HTML
           </div>
 
+          {/* CSS */}
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -58,15 +61,17 @@ const SkillsSection = () => {
             CSS
           </div>
 
+          {/* JavaScript */}
           <div
             className="skills-container"
             data-aos="fade-right"
             data-aos-offset="100"
           >
             <SiJavascript className="skill-icon" title="JavaScript" />
-            Javascript
+            JavaScript
           </div>
 
+          {/* React */}
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -76,6 +81,17 @@ const SkillsSection = () => {
             React
           </div>
 
+          {/* Redux */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiRedux className="skill-icon" title="Redux" />
+            Redux
+          </div>
+
+          {/* Tailwind CSS */}
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -85,6 +101,7 @@ const SkillsSection = () => {
             Tailwind CSS
           </div>
 
+          {/* Bootstrap */}
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -94,6 +111,20 @@ const SkillsSection = () => {
             Bootstrap
           </div>
 
+          {/* Styled Components */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiStyledcomponents
+              className="skill-icon"
+              title="Styled Components"
+            />
+            Styled Components
+          </div>
+
+          {/* Sass */}
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -103,6 +134,7 @@ const SkillsSection = () => {
             Sass
           </div>
 
+          {/* TypeScript */}
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -112,6 +144,7 @@ const SkillsSection = () => {
             TypeScript
           </div>
 
+          {/* Next.js */}
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -121,6 +154,7 @@ const SkillsSection = () => {
             Next.js
           </div>
 
+          {/* Git */}
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -128,17 +162,6 @@ const SkillsSection = () => {
           >
             <SiGit className="skill-icon" title="Git" />
             Git
-          </div>
-          <div
-            className="skills-container"
-            data-aos="fade-right"
-            data-aos-offset="100"
-          >
-            <SiStyledcomponents
-              className="skill-icon"
-              title="Styled Components"
-            />{" "}
-            Styled Components
           </div>
         </div>
       </div>

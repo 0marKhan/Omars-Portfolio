@@ -3,6 +3,7 @@ import "./Projects.scss";
 import tmpImage from "./ProjectSection/ProjectImages/tmp.png";
 import expenseImg from "./ProjectSection/ProjectImages/expense-tracker.png";
 import TasteMeals from "./ProjectSection/ProjectImages/TasteMeals.png";
+import Movie from "./ProjectSection/ProjectImages/movie.png";
 
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -12,13 +13,13 @@ import ProjectSection from "./ProjectSection/ProjectSection";
 //info for the project
 const projectDetails = [
   {
-    title: "project generic name",
-    technologiesUsed: ["React.js", "SASS", "Material UI"],
+    title: "TMovies",
+    technologiesUsed: ["React.js", "tailwindcss", "Redux"],
     description:
-      "lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el",
-    imageUrl: tmpImage,
-    liveLink: "",
-    sourceCodeLink: "",
+      "A movie website made with react.js, tailwindcss and redux that makes api calls to show different genres of movies, and getting their details by clicking on them",
+    imageUrl: Movie,
+    liveLink: "https://0markhan.github.io/movie-app/",
+    sourceCodeLink: "https://github.com/0marKhan/movie-app",
     //add links to where the buttons add here later for source code and live demo
   },
   {
