@@ -14,11 +14,11 @@ import ProjectSection from "./ProjectSection/ProjectSection";
 const projectDetails = [
   {
     title: "TMovies",
-    technologiesUsed: ["React.js", "tailwindcss", "Redux"],
+    technologiesUsed: ["React.js", "tailwindcss", "Material UI", "Redux"],
     description:
-      "A movie website made with react.js, tailwindcss and redux that makes api calls to show different genres of movies, and getting their details by clicking on them",
+      "A movie website made with react.js, tailwindcss, material UI and redux that makes api calls to show different movies, among which you can search or click for on them for details. Deployed on netlify",
     imageUrl: Movie,
-    liveLink: "https://0markhan.github.io/movie-app/",
+    liveLink: "https://tmovie1.netlify.app",
     sourceCodeLink: "https://github.com/0marKhan/movie-app",
     //add links to where the buttons add here later for source code and live demo
   },
