@@ -42,7 +42,7 @@ const projectDetails = [
     sourceCodeLink: "https://github.com/0marKhan/expense-tracker",
   },
   {
-    title: "project generic name",
+    title: "Weather App",
     technologiesUsed: ["React.js", "tailwindcss"],
     description:
       "a weather app that pulls the current weather from the OpenWeather API and display it. You can search and enter different city names to see their temperature as well",
