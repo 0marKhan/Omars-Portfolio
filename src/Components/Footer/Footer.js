@@ -29,6 +29,7 @@ const Footer = () => {
         </div>
         <div className="flex-col">
           <h1 className="footer-col-heading">Follow me</h1>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           <a href="#" onClick={openEmailClient} rel="noopener noreferrer">
             Email
           </a>

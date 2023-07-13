@@ -2,7 +2,7 @@ import React from "react";
 import Lottie from "lottie-react";
 import coding from "./coding.json";
 
-import "./FrontImage.scss"; // Import your Sass file
+import "./FrontImage.scss";
 
 const FrontImage = () => {
   return (

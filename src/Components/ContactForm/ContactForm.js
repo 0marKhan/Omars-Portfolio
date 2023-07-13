@@ -3,7 +3,6 @@ import emailjs from "emailjs-com";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import { Email, LinkedIn } from "@mui/icons-material";
 import "./ContactForm.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
