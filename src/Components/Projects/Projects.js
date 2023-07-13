@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Projects.scss";
-import tmpImage from "./ProjectSection/ProjectImages/tmp.png";
+
 import expenseImg from "./ProjectSection/ProjectImages/expense-tracker.png";
 import TasteMeals from "./ProjectSection/ProjectImages/TasteMeals.png";
 import Movie from "./ProjectSection/ProjectImages/movie.png";
@@ -33,15 +33,6 @@ const projectDetails = [
     sourceCodeLink: "https://github.com/0marKhan/TasteMeal",
   },
   {
-    title: "Expense Tracker",
-    technologiesUsed: ["React.js", "SCSS"],
-    description:
-      "An expense tracker that lets you add your expenses, by adding the item label, price and date of purchase. After that you can view your expenses in the form of a list representation or in a graphical representation.",
-    imageUrl: expenseImg,
-    liveLink: "https://0markhan.github.io/expense-tracker/",
-    sourceCodeLink: "https://github.com/0marKhan/expense-tracker",
-  },
-  {
     title: "Weather App",
     technologiesUsed: ["React.js", "tailwindcss"],
     description:
@@ -50,6 +41,15 @@ const projectDetails = [
     liveLink: "https://weather12app.netlify.app",
     sourceCodeLink: "https://github.com/0marKhan/weatherapp",
     //add links to where the buttons add here later for source code and live demo
+  },
+  {
+    title: "Expense Tracker",
+    technologiesUsed: ["React.js", "SCSS"],
+    description:
+      "An expense tracker that lets you add your expenses, by adding the item label, price and date of purchase. After that you can view your expenses in the form of a list representation or in a graphical representation.",
+    imageUrl: expenseImg,
+    liveLink: "https://0markhan.github.io/expense-tracker/",
+    sourceCodeLink: "https://github.com/0marKhan/expense-tracker",
   },
 ];
 
