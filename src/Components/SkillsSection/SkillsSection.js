@@ -11,19 +11,19 @@ import {
   SiSass,
   SiTailwindcss,
   SiGit,
-  SiMongodb,
-  SiReactnative,
-  SiNodeDotJs,
+  // SiMongodb,
+  // SiReactnative,
+  // SiNodeDotJs,
   SiBootstrap,
   SiNextdotjs,
   SiStyledcomponents,
   SiRedux, // Import the SiRedux icon from the react-icons/si library
 } from "react-icons/si";
 
-import { IoLogoPython } from "react-icons/io";
-import { FiFigma } from "react-icons/fi";
-import { DiNodejs } from "react-icons/di";
-import { FaNodeJs, FaReact } from "react-icons/fa";
+// import { IoLogoPython } from "react-icons/io";
+// import { FiFigma } from "react-icons/fi";
+// import { DiNodejs } from "react-icons/di";
+// import { FaNodeJs, FaReact } from "react-icons/fa";
 
 const SkillsSection = () => {
   useEffect(() => {

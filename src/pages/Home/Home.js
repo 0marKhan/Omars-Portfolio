@@ -9,7 +9,6 @@ import ScrollNav from "../../Components/ScrollNav/ScrollNav";
 import About from "../../Components/About/About";
 import ContactForm from "../../Components/ContactForm/ContactForm";
 import Footer from "../../Components/Footer/Footer";
-import * as Form from "@radix-ui/react-form";
 
 function Home() {
   return (
