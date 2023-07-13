@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto&family=Roboto+Slab:wght@300&display=swap");
+
 body {
   margin: 0;
   background-color: #1b1c1e;
-  @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto&family=Roboto+Slab:wght@300&display=swap"rel="stylesheet");
+  font-family: "Roboto Slab", sans-serif;
 }
