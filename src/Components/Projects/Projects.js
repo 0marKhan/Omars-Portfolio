@@ -4,6 +4,7 @@ import tmpImage from "./ProjectSection/ProjectImages/tmp.png";
 import expenseImg from "./ProjectSection/ProjectImages/expense-tracker.png";
 import TasteMeals from "./ProjectSection/ProjectImages/TasteMeals.png";
 import Movie from "./ProjectSection/ProjectImages/movie.png";
+import Weather from "./ProjectSection/ProjectImages/weather.png";
 
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -42,12 +43,12 @@ const projectDetails = [
   },
   {
     title: "project generic name",
-    technologiesUsed: ["React.js", "SASS", "Material UI"],
+    technologiesUsed: ["React.js", "tailwindcss"],
     description:
-      "lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el lorem epsum dolor sit amet, consectetur adipiscing el",
-    imageUrl: tmpImage,
-    liveLink: "",
-    sourceCodeLink: "",
+      "a weather app that pulls the current weather from the OpenWeather API and display it. You can search and enter different city names to see their temperature as well",
+    imageUrl: Weather,
+    liveLink: "https://weather12app.netlify.app",
+    sourceCodeLink: "https://github.com/0marKhan/weatherapp",
     //add links to where the buttons add here later for source code and live demo
   },
 ];
