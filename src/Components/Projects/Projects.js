@@ -15,7 +15,7 @@ import ProjectSection from "./ProjectSection/ProjectSection";
 const projectDetails = [
   {
     title: "TMovies",
-    technologiesUsed: ["React.js", "tailwindcss", "Material UI", "Redux"],
+    technologiesUsed: ["React.js", "tailwind css", "Material UI", "Redux"],
     description:
       "A movie website that makes API calls to TMBD and accesses movies, lets you see their details, ratings and descriptions. You can also search from movies in the list",
     imageUrl: Movie,
@@ -34,7 +34,7 @@ const projectDetails = [
   },
   {
     title: "Weather App",
-    technologiesUsed: ["React.js", "tailwindcss"],
+    technologiesUsed: ["React.js", "tailwind css"],
     description:
       "a weather app that pulls the current weather from the OpenWeather API and display it. You can search and enter different city names to see their temperature as well",
     imageUrl: Weather,
