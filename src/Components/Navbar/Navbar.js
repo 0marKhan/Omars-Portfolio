@@ -1,10 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faInstagram,
+  // faInstagram,
   faLinkedin,
   faGithub,
-  faFilePdf,
+  // faFilePdf,
 } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import Lottie from "lottie-react";
@@ -40,6 +40,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
               href="#"
               className="font-class"

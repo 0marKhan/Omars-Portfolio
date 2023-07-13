@@ -1,10 +1,9 @@
 import "./ProjectSection.scss";
 import Technologies from "./Technologies/Technologies";
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import VanillaTilt from "vanilla-tilt";
-import { Tilt } from "react-tilt";
+
 import { Link } from "react-router-dom";
 
 const ProjectSection = (props) => {
@@ -40,11 +39,7 @@ const ProjectSection = (props) => {
         </div>
       </div>
       <div className="image-section" data-aos="fade-down">
-        <img
-          className="project-image"
-          src={props.imageUrl}
-          alt="project image"
-        />
+        <img className="project-image" src={props.imageUrl} alt="project" />
       </div>
     </div>
   );
