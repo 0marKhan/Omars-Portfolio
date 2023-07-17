@@ -17,11 +17,13 @@ import {
   SiBootstrap,
   SiNextdotjs,
   SiStyledcomponents,
-  SiRedux, // Import the SiRedux icon from the react-icons/si library
+  SiRedux,
+  SiAdobexd,
 } from "react-icons/si";
 
 // import { IoLogoPython } from "react-icons/io";
-// import { FiFigma } from "react-icons/fi";
+import { FiFigma } from "react-icons/fi";
+
 // import { DiNodejs } from "react-icons/di";
 // import { FaNodeJs, FaReact } from "react-icons/fa";
 
@@ -162,6 +164,24 @@ const SkillsSection = () => {
           >
             <SiGit className="skill-icon" title="Git" />
             Git
+          </div>
+          {/* Figma */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <FiFigma className="skill-icon" title="Figma" />
+            Figma
+          </div>
+          {/* Adobe XD */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiAdobexd className="skill-icon" title="Adobe XD" />
+            Adobe XD
           </div>
         </div>
       </div>
