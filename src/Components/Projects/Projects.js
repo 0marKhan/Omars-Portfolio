@@ -36,7 +36,7 @@ const projectDetails = [
     title: "Weather App",
     technologiesUsed: ["React.js", "tailwind css"],
     description:
-      "a weather app that pulls the current weather from the OpenWeather API and display it. You can search and enter different city names to see their temperature as well",
+      "a weather app that pulls the current weather from the OpenWeather API and displays it. You can search and enter different city names to see their temperature as well",
     imageUrl: Weather,
     liveLink: "https://weather12app.netlify.app",
     sourceCodeLink: "https://github.com/0marKhan/weatherapp",
