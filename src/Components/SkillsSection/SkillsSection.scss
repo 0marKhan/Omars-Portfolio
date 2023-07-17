@@ -1,6 +1,6 @@
 .skills-section {
   background-color: #05b59e;
-  height: 170vh;
+  height: 185vh;
   margin-top: 16vh;
   font-family: "Roboto Slab", sans-serif;
   overflow-x: hidden;
@@ -38,7 +38,7 @@
   }
 
   @media screen and (device-width: 1280px) and (device-height: 800px) {
-    height: 58rem;
+    height: 66rem;
     margin-top: 15rem;
   }
 
@@ -48,7 +48,7 @@
   }
 
   @media screen and (device-width: 1024px) and (device-height: 600px) {
-    height: 50rem !important;
+    height: 61rem !important;
     margin-top: 10rem;
 
     overflow-x: hidden;
@@ -78,7 +78,7 @@
   }
 
   @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
-    height: 80vh;
+    height: 85vh;
     width: 100%;
     margin-top: 40vh;
 
@@ -95,7 +95,7 @@
   }
 
   @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
-    height: 85vh;
+    height: 95vh;
     margin-top: 40vh;
     .skills-icons {
       margin: 0;
@@ -105,7 +105,7 @@
   }
 
   @media screen and (device-width: 540px) and (device-height: 720px) {
-    height: 153vh;
+    height: 175vh;
 
     margin-top: 40vh;
 
@@ -121,7 +121,7 @@
   }
 
   @media screen and (max-width: 415px) {
-    height: 69rem;
+    height: 80rem;
     margin-top: 30vh;
 
     .skills-icons {
@@ -139,7 +139,7 @@
 
   @media screen and (max-width: 391px) {
     overflow-x: hidden;
-    height: 64rem;
+    height: 73rem;
     margin-top: 15rem;
     .skills-content {
       .skills-icons {
@@ -151,7 +151,7 @@
   }
 
   @media screen and (max-width: 376px) {
-    height: 58rem;
+    height: 66rem;
     margin-top: 5rem;
     // padding-top: 1px;
 
@@ -168,11 +168,11 @@
   }
 
   @media screen and (max-width: 361px) {
-    height: 130vh;
+    height: 66rem;
   }
 
   @media screen and (max-width: 321px) {
-    height: 58rem;
+    height: 66rem;
   }
 
   @media screen and (device-width: 280px) and (device-height: 653px) {
