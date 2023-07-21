@@ -15,7 +15,12 @@ import ProjectSection from "./ProjectSection/ProjectSection";
 const projectDetails = [
   {
     title: "PlaceFinder",
-    technologiesUsed: ["React.js", "tailwind css", "React Leaflet"],
+    technologiesUsed: [
+      "React.js",
+      "tailwind css",
+      "Material UI",
+      "React Leaflet",
+    ],
     description:
       "A website that lets you search for multiple different points of interest in different cities around the world by making multiple API calls, and then finally displaying their positions on a map (map displayed using react-leaflet) and their information as well",
     imageUrl: PlaceFinder,
