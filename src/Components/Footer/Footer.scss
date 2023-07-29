@@ -51,6 +51,30 @@
     }
   }
 
+  .circle {
+    margin: 3rem 0.5rem 0 0;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #282c34;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  /* Styles for the upwards-pointing arrow icon */
+  .arrow-icon {
+    width: 8px;
+    height: 8px;
+    border: 2px solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-135deg);
+    margin-top: 1px;
+  }
+
   @media screen and (device-width: 540px) and (device-height: 720px) {
     .flex-row {
       gap: 1rem;
