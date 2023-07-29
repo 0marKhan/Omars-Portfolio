@@ -15,6 +15,13 @@ const Footer = () => {
     window.open(emailUrl);
   };
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <footer className="footer">
       <div className="flex-row">
@@ -49,6 +56,9 @@ const Footer = () => {
           >
             Github
           </a>
+          <div className="circle" onClick={scrollToTop}>
+            <div className="arrow-icon"></div>
+          </div>
         </div>
       </div>
       <div className="footer-bottom">
