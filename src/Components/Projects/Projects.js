@@ -15,7 +15,7 @@ import ProjectSection from "./ProjectSection/ProjectSection";
 const projectDetails = [
   {
     title: "PlaceFinder",
-    technologiesUsed: ["React.js", "tailwind css", "Material UI"],
+    technologiesUsed: ["React.js", "Tailwind CSS", "Material UI"],
     description:
       "A website that lets you search for multiple different points of interest in different cities around the world by making multiple API calls, and then finally displaying their positions on a map (map displayed using react-leaflet) and their information as well",
     imageUrl: PlaceFinder,
@@ -25,7 +25,7 @@ const projectDetails = [
   },
   {
     title: "TMovies",
-    technologiesUsed: ["React.js", "tailwind css", "Material UI", "Redux"],
+    technologiesUsed: ["React.js", "Tailwind CSS", "Material UI", "Redux"],
     description:
       "A movie website that makes API calls to TMBD and accesses movies, lets you see their details, ratings and descriptions. You can also search from movies in the list",
     imageUrl: Movie,
@@ -35,7 +35,7 @@ const projectDetails = [
   },
   {
     title: "TasteMeals",
-    technologiesUsed: ["React.js", "CSS", "firebase"],
+    technologiesUsed: ["React.js", "CSS", "Firebase"],
     description:
       "A restuarant website that's deployed on firebase. The website fetches the displayed menu from firebase, lets you place orders and sends them to the database",
     imageUrl: TasteMeals,
