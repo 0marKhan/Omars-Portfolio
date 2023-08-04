@@ -15,7 +15,7 @@ import {
   // SiReactnative,
   // SiNodeDotJs,
   SiBootstrap,
-  SiNextdotjs,
+  // SiNextdotjs,
   SiStyledcomponents,
   SiRedux,
   SiAdobexd,
@@ -146,7 +146,7 @@ const SkillsSection = () => {
             TypeScript
           </div>
 
-          {/* Next.js */}
+          {/* Next.js
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -154,7 +154,7 @@ const SkillsSection = () => {
           >
             <SiNextdotjs className="skill-icon" title="Next.js" />
             Next.js
-          </div>
+          </div> */}
 
           {/* Git */}
           <div
