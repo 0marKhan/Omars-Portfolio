@@ -4,7 +4,7 @@ import "./Projects.scss";
 import expenseImg from "./ProjectSection/ProjectImages/expense-tracker.png";
 import TasteMeals from "./ProjectSection/ProjectImages/TasteMeals.png";
 import Movie from "./ProjectSection/ProjectImages/movie.png";
-import PlaceFinder from "./ProjectSection/ProjectImages/placefinder.png";
+import PrimePlace from "./ProjectSection/ProjectImages/prime-place.png";
 
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -14,13 +14,20 @@ import ProjectSection from "./ProjectSection/ProjectSection";
 //info for the project
 const projectDetails = [
   {
-    title: "PlaceFinder",
-    technologiesUsed: ["React.js", "Tailwind CSS", "Material UI"],
+    title: "PrimePlace",
+    technologiesUsed: [
+      "React.js",
+      "Tailwind CSS",
+      "Redux",
+      "Material UI",
+      "Axios",
+      "Jest",
+    ],
     description:
-      "A website that lets you search for multiple different points of interest in different cities around the world by making multiple API calls, and then finally displaying their positions on a map (map displayed using react-leaflet) and their information as well",
-    imageUrl: PlaceFinder,
-    liveLink: "https://0markhan.github.io/PlaceFinder/",
-    sourceCodeLink: "https://github.com/0marKhan/PlaceFinder",
+      "A website that uses Bayut API to get data on real estates in the UAE, displays real estates on rent and for sale, shows their descriptions and lets you filter through the list of real estates",
+    imageUrl: PrimePlace,
+    liveLink: "https://prime-place.netlify.app",
+    sourceCodeLink: "https://github.com/0marKhan/PrimePlace",
     //add links to where the buttons add here later for source code and live demo
   },
   {

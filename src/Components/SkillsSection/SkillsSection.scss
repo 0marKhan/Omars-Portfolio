@@ -43,7 +43,7 @@
   }
 
   @media screen and (max-width: 1224px) {
-    height: 170vh;
+    height: 190vh;
     margin-top: 15rem;
   }
 
@@ -60,7 +60,7 @@
   }
 
   @media screen and (max-width: 1073px) {
-    height: 75rem;
+    height: 85rem;
   }
 
   @media screen and (device-width: 912px) and (device-height: 1368px) {
@@ -73,9 +73,9 @@
     }
   }
 
-  @media screen and (max-width: 825px) {
-    height: 290vh;
-  }
+  // @media screen and (max-width: 825px) {
+  //   height: 220vh;
+  // }
 
   @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
     height: 85vh;
@@ -91,7 +91,7 @@
 
   @media screen and (max-width: 798px) {
     overflow: hidden;
-    height: 125rem;
+    height: 145rem;
   }
 
   @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
