@@ -8,7 +8,7 @@ const ScrollNav = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 660) {
+      if (window.scrollY > 710) {
         setIsVisible(true);
       } else {
         setIsVisible(false);

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./Projects.scss";
 
-import expenseImg from "./ProjectSection/ProjectImages/expense-tracker.png";
+import LinkShortener from "./ProjectSection/ProjectImages/LinkShortener.png";
 import TasteMeals from "./ProjectSection/ProjectImages/TasteMeals.png";
 import Movie from "./ProjectSection/ProjectImages/movie.png";
 import PrimePlace from "./ProjectSection/ProjectImages/prime-place.png";
@@ -50,13 +50,13 @@ const projectDetails = [
     sourceCodeLink: "https://github.com/0marKhan/TasteMeal",
   },
   {
-    title: "Expense Tracker",
-    technologiesUsed: ["React.js", "SCSS"],
+    title: "Link Shortener",
+    technologiesUsed: ["React.js", "CSS", "Axios", "Material UI"],
     description:
-      "An expense tracker that lets you add your expenses, by adding the item label, price and date of purchase. After that you can view your expenses in the form of a list representation or in a graphical representation.",
-    imageUrl: expenseImg,
-    liveLink: "https://0markhan.github.io/expense-tracker/",
-    sourceCodeLink: "https://github.com/0marKhan/expense-tracker",
+      "A website that lets you input long URL's by making an API call to shrtcode, and then displays the shortened link",
+    imageUrl: LinkShortener,
+    liveLink: "https://link-short-website.netlify.app",
+    sourceCodeLink: "https://github.com/0marKhan/LinkShortener",
   },
 ];
 

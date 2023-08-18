@@ -7,7 +7,7 @@ import {
   SiCss3,
   SiJavascript,
   SiReact,
-  SiTypescript,
+  // SiTypescript,
   SiSass,
   SiTailwindcss,
   SiGit,
@@ -136,7 +136,7 @@ const SkillsSection = () => {
             Sass
           </div>
 
-          {/* TypeScript */}
+          {/* TypeScript
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -144,7 +144,7 @@ const SkillsSection = () => {
           >
             <SiTypescript className="skill-icon" title="TypeScript" />
             TypeScript
-          </div>
+          </div> */}
 
           {/* Next.js
           <div

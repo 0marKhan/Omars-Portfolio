@@ -158,7 +158,7 @@
   }
 }
 
-@media screen and (max-width: 595px) {
+@media screen and (max-width: 597px) {
   .contact-form-container {
     .contact-details {
       .contact-text {
@@ -171,8 +171,12 @@
   }
   .contact-form-container {
     .contact-button {
+      display: flex;
+      justify-content: flex-end;
+      width: 91%;
       button {
-        margin-left: 17rem;
+        margin: 0;
+        flex-shrink: 0;
       }
     }
   }
