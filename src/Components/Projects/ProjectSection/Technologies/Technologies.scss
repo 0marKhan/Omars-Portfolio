@@ -1,4 +1,5 @@
 .technologies-list {
+  text-align: left;
   .technology-item {
     display: inline-block;
     background-color: #757576;
@@ -9,5 +10,11 @@
     margin-bottom: 10px;
     font-size: 14px;
     font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  .technologies-list {
+    text-align: center;
   }
 }
