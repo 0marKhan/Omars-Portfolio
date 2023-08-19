@@ -1,37 +1,16 @@
 .flex-container {
   margin-top: 1rem;
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  gap: 1.3rem;
 
-  @media screen and (max-width: 1010px) {
+  @media screen and (device-width: 1280px) and (device-height: 800px) {
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+
+  @media screen and (max-width: 1169px) {
     display: flex;
     flex-direction: column;
-  }
-
-  @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
-  }
-
-  @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
-  }
-
-  @media screen and (max-width: 620px) {
-  }
-
-  @media screen and (max-width: 415px) {
-  }
-
-  @media screen and (max-width: 412px) {
-  }
-
-  @media screen and (max-width: 394px) {
-  }
-
-  @media screen and (max-width: 391px) {
-  }
-
-  @media screen and (max-width: 376px) {
-  }
-
-  @media screen and (max-width: 361px) {
   }
 }

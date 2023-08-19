@@ -7,7 +7,6 @@ import "./FrontImage.scss";
 const FrontImage = () => {
   return (
     <div className="front-image">
-      {/* <img src={image} alt="Logo image" /> */}
       <div className="lottie-container">
         <Lottie className="lottie-anim" animationData={coding} loop={false} />
       </div>
