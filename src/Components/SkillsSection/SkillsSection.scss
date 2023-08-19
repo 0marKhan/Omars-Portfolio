@@ -1,6 +1,6 @@
 .skills-section {
   background-color: #05b59e;
-  height: 185vh;
+  padding-bottom: 8rem;
   margin-top: 16vh;
   font-family: "Roboto Slab", sans-serif;
   overflow-x: hidden;
@@ -9,7 +9,6 @@
   .skills-content {
     color: white;
     text-align: center;
-    // padding: 20px;
   }
 
   .skills-heading {
@@ -37,66 +36,35 @@
     }
   }
 
-  @media screen and (device-width: 1280px) and (device-height: 800px) {
-    height: 66rem;
-    margin-top: 15rem;
-  }
-
   @media screen and (max-width: 1224px) {
-    height: 190vh;
-    margin-top: 15rem;
+    margin-top: 10rem;
   }
 
   @media screen and (device-width: 1024px) and (device-height: 600px) {
-    height: 61rem !important;
-    margin-top: 10rem;
-
-    overflow-x: hidden;
     .skills-icons {
       margin: 0;
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 20px;
     }
-  }
-
-  @media screen and (max-width: 1073px) {
-    height: 85rem;
   }
 
   @media screen and (device-width: 912px) and (device-height: 1368px) {
-    height: 70vh;
-    margin-top: 40vh;
     .skills-icons {
       margin: 0;
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 20px;
     }
   }
-
-  // @media screen and (max-width: 825px) {
-  //   height: 220vh;
-  // }
 
   @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
-    height: 85vh;
-    width: 100%;
-    margin-top: 40vh;
-
     .skills-icons {
       margin: 0;
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 20px;
     }
-  }
-
-  @media screen and (max-width: 798px) {
-    overflow: hidden;
-    height: 145rem;
   }
 
   @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
-    height: 95vh;
-    margin-top: 40vh;
     .skills-icons {
       margin: 0;
       grid-template-columns: 1fr 1fr 1fr;
@@ -105,14 +73,6 @@
   }
 
   @media screen and (device-width: 540px) and (device-height: 720px) {
-    height: 175vh;
-
-    margin-top: 40vh;
-
-    .skill-heading {
-      font-size: 2.3rem;
-    }
-
     .skills-icons {
       margin: 0;
       grid-template-columns: 1fr 1fr;
@@ -121,9 +81,6 @@
   }
 
   @media screen and (max-width: 415px) {
-    height: 80rem;
-    margin-top: 30vh;
-
     .skills-icons {
       margin: 0;
       grid-template-columns: 1fr 1fr;
@@ -131,48 +88,8 @@
     }
   }
 
-  @media screen and (max-width: 412px) {
-  }
-
-  @media screen and (max-width: 394px) {
-  }
-
-  @media screen and (max-width: 391px) {
-    overflow-x: hidden;
-    height: 73rem;
-    margin-top: 15rem;
-    .skills-content {
-      .skills-icons {
-        margin: 0;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 0px;
-      }
-    }
-  }
-
-  @media screen and (max-width: 376px) {
-    height: 66rem;
-    margin-top: 5rem;
-    // padding-top: 1px;
-
-    .skills-content {
-      .skills-icons {
-        margin: 0;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 0px;
-        .skill-icon {
-          font-size: 2.2rem;
-        }
-      }
-    }
-  }
-
   @media screen and (max-width: 361px) {
-    height: 66rem;
-  }
-
-  @media screen and (max-width: 321px) {
-    height: 66rem;
+    padding-bottom: 5rem;
   }
 
   @media screen and (device-width: 280px) and (device-height: 653px) {
@@ -193,9 +110,5 @@
         }
       }
     }
-  }
-
-  @media screen and (grid-template-columns: 1fr) {
-    height: 120rem;
   }
 }

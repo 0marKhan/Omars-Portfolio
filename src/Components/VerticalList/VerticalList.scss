@@ -1,14 +1,14 @@
 .list-vals {
   font-family: "Roboto Slab", sans-serif;
   color: white;
-  margin: 1rem 2.5rem 0 0rem;
 
   ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-right: 2.8rem;
     border-left: 3px solid #05b59e;
-    padding-left: 10px;
+    padding-left: 0.625rem;
 
     li {
       margin-top: 55px;
@@ -68,32 +68,19 @@
   }
 
   @media screen and (device-width: 1280px) and (device-height: 800px) {
-    margin: 0rem 0 0 0;
-
     ul {
-      margin: 8rem 1rem 0 0;
+      margin-right: 3rem;
+
       li {
         font-size: 2rem;
       }
     }
   }
 
-  @media screen and (device-width: 1024px) and (device-height: 600px) {
-    margin: 0rem 0 0 0;
-
-    ul {
-      margin: 4rem 1rem 0 0;
-      li {
-        font-size: 1.5rem;
-      }
-    }
-  }
-
-  @media screen and (max-width: 1010px) {
+  @media screen and (max-width: 1169px) {
     ul {
       display: flex;
-      margin-bottom: 0.5rem;
-      margin-left: 4.8rem;
+      margin: 0 0 0 0.5rem;
       justify-content: center;
       border-left: none;
 
@@ -104,199 +91,81 @@
     }
   }
 
-  @media screen and (device-width: 912px) and (device-height: 1368px) {
-    margin: 0rem 3rem 0 0;
-
+  @media screen and (device-width: 912px) and (device-height: 1368px) and (-webkit-device-pixel-ratio: 2) {
     ul {
-      display: flex;
-      margin-bottom: 0.5rem;
-      justify-content: center;
-      border-left: none;
-
+      margin-top: 2rem;
       li {
-        margin: 1rem 4rem 0 0;
-        font-size: 2rem;
+        font-size: 2.3rem;
       }
     }
   }
 
   @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
-    margin: 0rem 3rem 0 0;
-
     ul {
-      display: flex;
-      margin-bottom: 0.5rem;
-      justify-content: center;
-      border-left: none;
-
       li {
-        margin: 1rem 2.5rem 0 0;
         font-size: 2rem;
       }
     }
   }
 
   @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
-    margin: 0rem 4rem 0 0;
-
     ul {
-      display: flex;
-      margin-bottom: 0.5rem;
-      justify-content: center;
-      border-left: none;
-
       li {
-        margin: 1rem 3rem 0 0;
-        font-size: 1.8rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 586px) {
+    ul {
+      justify-content: center;
+      align-items: center;
+      li {
+        margin: 1rem 1.4rem 0 0;
       }
     }
   }
 
   @media screen and (device-width: 540px) and (device-height: 720px) {
-    margin: 0rem 0 0 0;
-
     ul {
-      display: flex;
-
-      margin: 0 0rem 0.5rem 1rem;
-      border-left: none;
-
       li {
-        margin: 1rem 2rem 0 0;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    ul {
+      margin: 1rem 0 0 0.6rem;
+      li {
         font-size: 1.2rem;
       }
     }
   }
 
-  @media screen and (max-width: 415px) {
-    margin: 0rem 0 0 0;
-
+  @media screen and (max-width: 390px) {
     ul {
-      display: flex;
-      margin: 0 0 0.5rem 0.8rem;
-      border-left: none;
-
-      li {
-        margin: 1rem 1.5rem 0 0;
-        font-size: 1.3rem;
-      }
-    }
-  }
-
-  @media screen and (device-width: 414px) and (device-height: 736px) {
-    ul {
-      margin-right: 1rem;
-      li {
-        margin: 1rem 1.1rem 0 0;
-      }
-    }
-  }
-
-  @media screen and (max-width: 412px) {
-    margin: 0;
-    ul {
-      display: flex;
-      margin: 0 0 0.7rem 0.5rem;
-      border-left: none;
-      li {
-        margin: 1rem 1.3rem 0 0;
-        font-size: 1.2rem;
-      }
-    }
-  }
-
-  @media screen and (max-width: 394px) {
-    margin: 0;
-    ul {
-      display: flex;
-      margin: 0 0 0.7rem 0rem;
-      border-left: none;
-      li {
-        margin: 1rem 1rem 0 0;
-        font-size: 1.2rem;
-      }
-    }
-  }
-
-  @media screen and (max-width: 391px) {
-    margin: 0rem 0 0 0;
-
-    ul {
-      display: flex;
-      margin: 0 0 0.5rem 0rem;
-      border-left: none;
-
       li {
         margin: 1rem 1.2rem 0 0;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    ul {
+      li {
+        margin: 1rem 1rem 0 0;
         font-size: 1.1rem;
       }
     }
   }
 
-  @media screen and (max-width: 376px) {
-    margin: 0rem 0 0 0;
-
+  @media screen and (max-width: 320px) {
     ul {
-      width: 70%;
-      display: flex;
-      margin: 0 0 0.5rem 3rem;
-      border-left: none;
-
       li {
         margin: 1rem 1rem 0 0;
-        font-size: 1rem;
-      }
-    }
-  }
-
-  @media screen and (device-width: 375px) and (device-height: 812px) {
-    ul {
-      margin-left: 3.5rem;
-      li {
-        margin-right: 1.3rem;
-      }
-    }
-  }
-
-  @media screen and (max-width: 361px) {
-    margin: 0rem 0 0 0;
-
-    ul {
-      display: flex;
-      margin: 0 0 0.5rem 3rem;
-      border-left: none;
-
-      li {
-        margin: 1rem 1rem 0 0;
-        font-size: 1rem;
-      }
-    }
-  }
-
-  @media screen and (max-width: 321px) {
-    ul {
-      display: flex;
-      margin: 0 0 0.5rem 2.5rem;
-      border-left: none;
-
-      li {
-        margin: 1rem 0.7rem 0 0;
-        font-size: 1rem;
-      }
-    }
-  }
-
-  @media screen and (device-width: 280px) and (device-height: 653px) {
-    margin: 0rem 0 0 0;
-
-    ul {
-      display: flex;
-      margin: 0 0 0.5rem 2rem;
-      border-left: none;
-
-      li {
-        margin: 1rem 0.8rem 0 0;
-        font-size: 0.8rem;
+        font-size: 0.95rem;
       }
     }
   }

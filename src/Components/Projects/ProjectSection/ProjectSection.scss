@@ -87,12 +87,9 @@
       }
     }
   }
-  @media screen and (device-width: 912px) and (device-height: 1368px) {
-    .content-left {
-      width: auto;
-    }
-  }
-  @media screen and (device-width: 820px) and (device-height: 1180px) {
+
+  @media screen and ((device-width: 912px) and (device-height: 1368px)),
+    screen and ((device-width: 820px) and (device-height: 1180px)) {
     .content-left {
       width: auto;
     }
@@ -110,14 +107,14 @@
   @media screen and (device-width: 540px) and (device-height: 720px) {
     .content-left {
       width: auto;
-      margin: 0 2.4rem 0 2.9rem;
+      margin: 0 2.4rem 0 2.4rem;
     }
   }
 
   @media screen and (max-width: 415px) {
     .content-left {
       width: auto;
-      margin: 0 0.5rem 0 0.5rem;
+      margin: 0 0.8rem 0 0.8rem;
 
       .details {
         text-align: center;
@@ -133,27 +130,14 @@
   }
 
   @media screen and (max-width: 394px) {
-    .content-left {
-      margin: 0 0.8rem 0 0.8rem;
-      .details {
-        margin: 0 0.4rem 0 0.4rem;
-      }
-    }
     .image-section {
       img {
         width: 365px;
-        margin: 0 0.5rem 0 0.5rem;
       }
     }
   }
 
   @media screen and (max-width: 391px) {
-    .content-left {
-      margin: 0 0.8rem 0 0.8rem;
-      .details {
-        margin: 0 0.4rem 0 0.4rem;
-      }
-    }
     .image-section {
       img {
         width: 360px;
@@ -163,16 +147,6 @@
   }
 
   @media screen and (max-width: 376px) {
-    .content-left {
-      width: auto;
-      margin: 0 0.5rem 0 0.5rem;
-
-      .details {
-        margin: 0 0.5rem 0 0.5rem;
-        text-align: center;
-      }
-    }
-
     .image-section {
       img {
         margin: 0 0.5rem 0 0.5rem;
@@ -182,13 +156,9 @@
   }
 
   @media screen and (max-width: 361px) {
-    .content-left {
-      margin: 0 0.8rem 0 0.8rem;
-    }
     .image-section {
       img {
         width: 335px;
-        margin: 0 0.5rem 0 0.5rem;
       }
     }
   }
@@ -200,13 +170,6 @@
     .image-section {
       img {
         width: 200px;
-      }
-    }
-  }
-
-  @media screen and (max-width: 281px) {
-    .image-section {
-      img {
       }
     }
   }

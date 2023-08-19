@@ -1,9 +1,9 @@
 .about {
   position: relative;
   background-color: #05b59e;
-  height: 105vh;
   overflow: hidden;
   font-family: "Roboto Slab", sans-serif;
+  padding-bottom: 1rem;
 
   h1 {
     font-size: 2.5rem;
@@ -54,76 +54,6 @@
       }
       .about-description {
         margin: 0 2rem 0 2rem;
-      }
-    }
-  }
-
-  @media screen and (device-width: 1280px) and (device-height: 800px) {
-    height: 35rem;
-  }
-
-  @media screen and (device-width: 1024px) and (device-height: 600px) {
-    height: 35rem;
-  }
-
-  @media screen and (device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) {
-  }
-
-  @media screen and (device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) {
-  }
-
-  @media screen and (max-width: 620px) {
-  }
-
-  @media screen and (max-width: 415px) {
-    height: 40rem;
-    .about-container {
-      flex-direction: column;
-      align-items: center;
-
-      .lottie-animation {
-        margin: -2rem 0 2rem 0rem;
-        height: 15rem;
-        width: 15rem;
-      }
-      .about-description {
-        margin: 0 1.5rem 0 1.5rem;
-        font-size: 1rem;
-      }
-    }
-  }
-
-  @media screen and (max-width: 412px) {
-  }
-
-  @media screen and (max-width: 394px) {
-  }
-
-  @media screen and (max-width: 391px) {
-  }
-
-  @media screen and (max-width: 376px) {
-    height: 40rem;
-    .about-container {
-      flex-direction: column;
-      align-items: center;
-
-      .lottie-animation {
-        margin: -2rem 0 2rem 0rem;
-        height: 15rem;
-        width: 15rem;
-      }
-      .about-description {
-        margin: 0 1.5rem 0 1.5rem;
-        font-size: 1rem;
-      }
-    }
-  }
-
-  @media screen and (max-width: 321px) {
-    .about-container {
-      .about-description {
-        margin: 0 1.5rem 0 1.5rem;
       }
     }
   }

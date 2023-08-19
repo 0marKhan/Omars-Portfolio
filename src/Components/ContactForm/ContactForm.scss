@@ -2,55 +2,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Roboto Slab, sans-serif;
-
   .contact-heading {
+    margin-top: 5rem;
     color: #fff;
-    font-family: Roboto Slab, sans-serif;
-    margin: 5rem 0 0 0;
   }
-
-  .contact-details {
-    margin-right: 30rem;
-    justify-content: space-between;
-
-    margin-top: 4rem;
-    .contact-text {
-      margin: 0 12rem 0 0rem;
+  .form-class {
+    .contact-details {
+      text-align: start;
       color: #fff;
       font-size: 1.2rem;
-      text-align: left;
     }
-  }
 
-  .contact-heading {
-    text-align: center;
-  }
-
-  .contact-text {
-    text-align: center;
-  }
-
-  .form-class {
-    width: 100%;
     .contact-form {
       display: flex;
       justify-content: center;
-      gap: 0rem;
-      margin: 0 2rem 4rem 3rem;
-      flex-wrap: wrap;
-      .form-column {
-        width: 500px;
-        display: flex;
-        flex-direction: column;
-        margin-right: 0.5rem;
 
+      .form-column {
         .basic-textform {
-          width: 95%;
           input {
             height: 2.8rem;
-            width: 100%;
-            min-width: 150px;
+            width: 30rem;
             font-family: Roboto Slab, sans-serif;
             color: white;
             font-size: 1rem;
@@ -62,11 +33,9 @@
           }
         }
         .multiline {
-          width: 95%;
           textarea {
-            align-items: flex-start;
             height: 10.2rem;
-            width: 100%;
+            width: 30rem;
             min-width: 150px;
             font-family: Roboto Slab, sans-serif;
             color: white;
@@ -87,11 +56,15 @@
       margin: 40px auto;
       text-align: center;
     }
-    button {
-      font-size: inherit;
-      align-items: flex-end;
-      outline: none;
-      margin: 0rem 0 2rem 53.5rem;
+    .contact-button {
+      display: flex;
+      justify-content: flex-end;
+      button {
+        font-size: inherit;
+
+        outline: none;
+        margin: 3rem 0 2rem 0;
+      }
     }
     .custom-btn {
       width: 130px;
@@ -136,246 +109,57 @@
       top: 2px;
     }
   }
-}
 
-@media screen and (max-width: 1113px) {
-  .contact-form-container {
-    .contact-details {
-      margin: 0;
-      .contact-text {
-        margin: 2rem 10.2rem 0 0;
-      }
-    }
-  }
-
-  .contact-form-container {
-    .contact-button {
-      button {
-        margin-right: 0;
-        margin-left: 22rem;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 597px) {
-  .contact-form-container {
-    .contact-details {
-      .contact-text {
-        margin-left: 3.05rem;
-      }
-    }
-    .contact-form {
-      width: 85%;
-    }
-  }
-  .contact-form-container {
-    .contact-button {
-      display: flex;
-      justify-content: flex-end;
-      width: 91%;
-      button {
-        margin: 0;
-        flex-shrink: 0;
-      }
-    }
-  }
-}
-
-@media screen and (device-width: 540px) and (device-height: 720px) {
-  .contact-form-container {
-    .contact-button {
-      margin-left: 1.9rem;
-    }
-  }
-}
-
-@media screen and (max-width: 414px) {
-  .contact-form-container {
-    .contact-details {
-      margin: 0;
-      .contact-text {
-        width: 85%;
-        margin: 2rem 2rem 0 0rem;
-      }
-    }
-  }
-  .contact-form-container {
-    form {
-      width: 100%;
-      margin: 0 2.5rem 0 0;
+  @media screen and (max-width: 1054px) {
+    .form-class {
       .contact-form {
-        width: 92%;
+        flex-direction: column;
         .form-column {
-          width: 100%;
-
-          .basic-textform {
-            width: 100%;
-            input {
-              width: 100%;
-            }
-          }
-          .multiline {
-            width: 100%;
-            textarea {
-              width: 100%;
-            }
-          }
-        }
-      }
-    }
-    .contact-button {
-      button {
-        margin: -4rem 0 1rem 17.5rem;
-      }
-    }
-    .Toastify__toast-container {
-      z-index: 99;
-      position: fixed;
-      top: 1rem;
-      left: auto;
-      right: 1rem;
-      padding: 8px;
-      width: auto;
-      box-sizing: border-box;
-    }
-
-    .Toastify__toast {
-      margin-bottom: 8px;
-      border-radius: 4px;
-      font-family: Roboto Slab, sans-serif;
-      font-size: 14px;
-      line-height: 1.4;
-      max-width: 240px;
-      white-space: nowrap;
-    }
-  }
-}
-
-@media screen and (max-width: 394px) {
-  .contact-form-container {
-    .contact-details {
-      margin-left: 1rem;
-    }
-  }
-  .contact-form-container {
-    form {
-      margin: 0 3rem 0 0;
-    }
-    .contact-button {
-      button {
-        margin: -1rem 0 1rem 16.5rem;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 391px) {
-  .contact-form-container {
-    .contact-details {
-      margin-left: 1.3rem;
-    }
-  }
-  .contact-form-container {
-    form {
-      margin: 0 3rem 0 0;
-    }
-    .contact-button {
-      button {
-        margin: -1rem 0 1rem 16.3rem;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 376px) {
-  .contact-form-container {
-    .contact-details {
-      margin: 0;
-
-      .contact-text {
-        width: 83%;
-        margin: 0.7rem 1rem 0 0.7rem;
-      }
-    }
-    form {
-      margin: 0 3.2rem 0 0;
-      .contact-form {
-        .form-column {
-          width: 100%;
-
-          .basic-textform {
-            width: 100%;
-            input {
-              width: 100%;
-            }
-          }
-          .multiline {
-            width: 100%;
-            textarea {
-              width: 100%;
-            }
+          .basic-textform input {
+            margin-right: 0;
           }
         }
       }
     }
   }
-  .contact-form-container {
-    .contact-button {
-      button {
-        margin: -4rem 0 1rem 15.5rem;
-      }
-    }
-  }
-}
 
-@media screen and (max-width: 361px) {
-  .contact-form-container {
-    .contact-details {
-      margin-left: 0.6rem;
-    }
-  }
-  .contact-form-container {
-    .contact-button {
-      button {
-        margin: -1rem 0 1rem 14.5rem;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 321px) {
-  .contact-form-container {
-    .contact-details {
-      margin-left: 0.5rem;
-    }
-    form {
-      margin-right: 3.5rem;
+  @media screen and (max-width: 560px) {
+    .form-class {
+      width: 80%;
       .contact-form {
-        margin: 0 1.2rem 2rem 0rem;
+        align-items: center;
         .form-column {
           width: 100%;
-
-          .basic-textform {
-            width: 100%;
-            input {
-              width: 100%;
-            }
-          }
-          .multiline {
-            width: 100%;
-            textarea {
-              width: 100%;
-            }
+          .basic-textform input,
+          .multiline textarea {
+            width: 97%;
           }
         }
       }
     }
   }
-  .contact-form-container {
-    .contact-button {
-      button {
-        margin: -4rem 0 1rem 12.5rem;
+
+  @media screen and (max-width: 414px) {
+    .contact-form-container {
+      .Toastify__toast-container {
+        z-index: 99;
+        position: fixed;
+        top: 1rem;
+        left: auto;
+        right: 1rem;
+        padding: 8px;
+        width: auto;
+        box-sizing: border-box;
+      }
+
+      .Toastify__toast {
+        margin-bottom: 8px;
+        border-radius: 4px;
+        font-family: Roboto Slab, sans-serif;
+        font-size: 14px;
+        line-height: 1.4;
+        max-width: 240px;
+        white-space: nowrap;
       }
     }
   }

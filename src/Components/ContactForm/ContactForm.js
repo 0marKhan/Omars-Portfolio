@@ -67,8 +67,8 @@ const ContactForm = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 600, // Set the animation duration (in milliseconds)
-      once: true, // Apply the animation only once
+      duration: 600,
+      once: true,
     });
   }, []);
 
@@ -77,13 +77,14 @@ const ContactForm = () => {
       <h1 className="contact-heading" data-aos="zoom-in">
         Contact
       </h1>
-      <div className="contact-details">
-        <p className="contact-text" data-aos="fade-right">
-          Interested in working together?
-          <br /> Let's connect via email or LinkedIn!
-        </p>
-      </div>
+
       <form className="form-class" ref={formRef} onSubmit={sendEmail}>
+        <div className="contact-details">
+          <p className="contact-text" data-aos="fade-right">
+            Interested in working together?
+            <br /> Let's connect via email or LinkedIn!
+          </p>
+        </div>
         <div className="contact-form">
           <div className="form-column">
             <div className="basic-textform">
@@ -143,6 +144,7 @@ const ContactForm = () => {
             position: fixed;
             top: 1rem;
             right: 1rem;
+            left: auto;
             padding: 8px;
             width: auto;
             box-sizing: border-box;
@@ -154,7 +156,7 @@ const ContactForm = () => {
             font-family: Roboto Slab, sans-serif;
             font-size: 14px;
             line-height: 1.4;
-            max-width: 340px;
+            max-width: 240px;
             white-space: nowrap;
           }
 

@@ -14,9 +14,7 @@ const IntroText = () => {
         <h1 className="first-line">
           Hi, Im <span className="aqua-text">Omar</span>
         </h1>
-        <h1 className="second-line">
-          <span className="gradient-text">I'm a frontend developer.</span>
-        </h1>
+        <h1 className="second-line">I'm a frontend developer.</h1>
       </div>
     </div>
   );
