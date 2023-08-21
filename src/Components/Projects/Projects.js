@@ -34,7 +34,7 @@ const projectDetails = [
     title: "Item Detector",
     technologiesUsed: ["React.js", "SCSS", "Material UI", "Clarifai"],
     description:
-      "A website that does general item recognition. It lets you input an image Url, using an API of a trained model from clarifai and outputs concept names related to that image and assigns them scores out of 1",
+      "A website that does general item recognition. It lets you input an image Url, then using an API of a trained model from clarifai it outputs concept names related to that image and assigns them scores out of 1",
     imageUrl: ItemDetector,
     liveLink: "https://item-detector.netlify.app",
     sourceCodeLink: "https://github.com/0marKhan/ItemConceptDetector",
