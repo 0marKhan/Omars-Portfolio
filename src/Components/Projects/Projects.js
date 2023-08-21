@@ -3,7 +3,7 @@ import "./Projects.scss";
 
 import LinkShortener from "./ProjectSection/ProjectImages/LinkShortener.png";
 import TasteMeals from "./ProjectSection/ProjectImages/TasteMeals.png";
-import Movie from "./ProjectSection/ProjectImages/movie.png";
+import ItemDetector from "./ProjectSection/ProjectImages/item-detector.png";
 import PrimePlace from "./ProjectSection/ProjectImages/prime-place.png";
 
 import "aos/dist/aos.css";
@@ -31,13 +31,13 @@ const projectDetails = [
     //add links to where the buttons add here later for source code and live demo
   },
   {
-    title: "TMovies",
-    technologiesUsed: ["React.js", "Tailwind CSS", "Material UI", "Redux"],
+    title: "Item Detector",
+    technologiesUsed: ["React.js", "SCSS", "Material UI", "Clarifai"],
     description:
-      "A movie website that makes API calls to TMBD and accesses movies, lets you see their details, ratings and descriptions. You can also search from movies in the list",
-    imageUrl: Movie,
-    liveLink: "https://tmovie1.netlify.app",
-    sourceCodeLink: "https://github.com/0marKhan/movie-app",
+      "A website that does general item recognition. It lets you input an image, using an API of a trained model from clarifai and outputs concept names related to that image and assigns them scores out of 1",
+    imageUrl: ItemDetector,
+    liveLink: "https://item-detector.netlify.app",
+    sourceCodeLink: "https://github.com/0marKhan/ItemConceptDetector",
     //add links to where the buttons add here later for source code and live demo
   },
   {
