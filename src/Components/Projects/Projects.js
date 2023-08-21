@@ -50,7 +50,7 @@ const projectDetails = [
     sourceCodeLink: "https://github.com/0marKhan/TasteMeal",
   },
   {
-    title: "Link Shortener",
+    title: "URL Shortener",
     technologiesUsed: ["React.js", "CSS", "Axios", "Material UI"],
     description:
       "A website that lets you input long URL's by making an API call to shrtcode, and then displays the shortened link",
