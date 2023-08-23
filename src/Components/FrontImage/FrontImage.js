@@ -1,14 +1,23 @@
-import React from "react";
-import Lottie from "lottie-react";
-import coding from "./coding.json";
-
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import CodingImage from "./front-image.png";
 import "./FrontImage.scss";
 
 const FrontImage = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="front-image">
       <div className="lottie-container">
-        <Lottie className="lottie-anim" animationData={coding} loop={false} />
+        <img
+          src={CodingImage}
+          alt="coding"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        />
       </div>
     </div>
   );
