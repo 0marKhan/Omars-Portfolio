@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Projects.scss";
 
 import LinkShortener from "./ProjectSection/ProjectImages/LinkShortener.png";
-import TasteMeals from "./ProjectSection/ProjectImages/TasteMeals.png";
+import PhoneValidator from "./ProjectSection/ProjectImages/phone-validator.png";
 import ItemDetector from "./ProjectSection/ProjectImages/item-detector.png";
 import PrimePlace from "./ProjectSection/ProjectImages/prime-place.png";
 
@@ -31,6 +31,15 @@ const projectDetails = [
     //add links to where the buttons add here later for source code and live demo
   },
   {
+    title: "PhoneNumValid",
+    technologiesUsed: ["React.js", "CSS", "Firebase", "Material UI", "Axios"],
+    description:
+      "A website that lets you verify if a phone number is valid, shows which country the number is from, the carrier etc. It also lets you save, delete numbers in firebase and filter through them to search for numbers",
+    imageUrl: PhoneValidator,
+    liveLink: "https://phonenumvalid.web.app",
+    sourceCodeLink: "https://github.com/0marKhan/PhoneNumberValidator",
+  },
+  {
     title: "Item Detector",
     technologiesUsed: ["React.js", "SCSS", "Material UI", "Clarifai"],
     description:
@@ -40,15 +49,7 @@ const projectDetails = [
     sourceCodeLink: "https://github.com/0marKhan/ItemConceptDetector",
     //add links to where the buttons add here later for source code and live demo
   },
-  {
-    title: "TasteMeals",
-    technologiesUsed: ["React.js", "CSS", "Firebase"],
-    description:
-      "A restuarant website that's deployed on firebase. The website fetches the displayed menu from firebase, lets you place orders and sends them to the database",
-    imageUrl: TasteMeals,
-    liveLink: "https://tastemeals-acfcd.web.app",
-    sourceCodeLink: "https://github.com/0marKhan/TasteMeal",
-  },
+
   {
     title: "URL Shortener",
     technologiesUsed: ["React.js", "CSS", "Axios", "Material UI"],
