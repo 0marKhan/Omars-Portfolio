@@ -26,7 +26,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} /> {/* LinkedIn */}
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
           <li>
@@ -36,7 +36,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} /> {/* GitHub */}
+              <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
           <li>
