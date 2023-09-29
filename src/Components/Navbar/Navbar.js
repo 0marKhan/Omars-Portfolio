@@ -42,7 +42,7 @@ const Navbar = () => {
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a
-              href="https://drive.google.com/file/d/1kmvvct-bRZOJ_mrFib7Ym1p0ALS9CyBk/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lNLbaCRDXOJJmAU7MVXM3SmHVTpgN5lr/view?usp=sharing"
               className="font-class"
               target="_blank"
               rel="noopener noreferrer"
