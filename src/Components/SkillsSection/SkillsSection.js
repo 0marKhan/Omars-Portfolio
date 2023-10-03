@@ -21,11 +21,12 @@ import {
   SiAdobexd,
 } from "react-icons/si";
 
-// import { IoLogoPython } from "react-icons/io";
 import { FiFigma } from "react-icons/fi";
 
 // import { DiNodejs } from "react-icons/di";
 // import { FaNodeJs, FaReact } from "react-icons/fa";
+import { FaJava } from "react-icons/fa"; // Java icon from Font Awesome
+import { IoLogoPython } from "react-icons/io"; // Python icon from react-icons/io
 
 const SkillsSection = () => {
   useEffect(() => {
@@ -52,7 +53,6 @@ const SkillsSection = () => {
             <SiHtml5 className="skill-icon" title="HTML" />
             HTML
           </div>
-
           {/* CSS */}
           <div
             className="skills-container"
@@ -62,7 +62,6 @@ const SkillsSection = () => {
             <SiCss3 className="skill-icon" title="CSS" />
             CSS
           </div>
-
           {/* JavaScript */}
           <div
             className="skills-container"
@@ -72,7 +71,6 @@ const SkillsSection = () => {
             <SiJavascript className="skill-icon" title="JavaScript" />
             JavaScript
           </div>
-
           {/* React */}
           <div
             className="skills-container"
@@ -82,7 +80,6 @@ const SkillsSection = () => {
             <SiReact className="skill-icon" title="React" />
             React
           </div>
-
           {/* Redux */}
           <div
             className="skills-container"
@@ -92,7 +89,6 @@ const SkillsSection = () => {
             <SiRedux className="skill-icon" title="Redux" />
             Redux
           </div>
-
           {/* Tailwind CSS */}
           <div
             className="skills-container"
@@ -102,7 +98,6 @@ const SkillsSection = () => {
             <SiTailwindcss className="skill-icon" title="Tailwind CSS" />
             Tailwind CSS
           </div>
-
           {/* Bootstrap */}
           <div
             className="skills-container"
@@ -112,7 +107,6 @@ const SkillsSection = () => {
             <SiBootstrap className="skill-icon" title="Bootstrap" />
             Bootstrap
           </div>
-
           {/* Styled Components */}
           <div
             className="skills-container"
@@ -125,7 +119,6 @@ const SkillsSection = () => {
             />
             Styled Components
           </div>
-
           {/* Sass */}
           <div
             className="skills-container"
@@ -134,6 +127,24 @@ const SkillsSection = () => {
           >
             <SiSass className="skill-icon" title="Sass" />
             Sass
+          </div>
+          {/* Java */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <FaJava className="skill-icon" title="Java" />
+            Java
+          </div>
+          {/* Python */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <IoLogoPython className="skill-icon" title="Python" />
+            Python
           </div>
 
           {/* TypeScript
@@ -145,7 +156,6 @@ const SkillsSection = () => {
             <SiTypescript className="skill-icon" title="TypeScript" />
             TypeScript
           </div> */}
-
           {/* Next.js
           <div
             className="skills-container"
@@ -155,7 +165,6 @@ const SkillsSection = () => {
             <SiNextdotjs className="skill-icon" title="Next.js" />
             Next.js
           </div> */}
-
           {/* Git */}
           <div
             className="skills-container"
