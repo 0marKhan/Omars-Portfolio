@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Projects.scss";
 
 import LinkShortener from "./ProjectSection/ProjectImages/LinkShortener.png";
-import PhoneValidator from "./ProjectSection/ProjectImages/phone-validator.png";
+import PlaceFinder from "./ProjectSection/ProjectImages/placefinder.png";
 import ItemDetector from "./ProjectSection/ProjectImages/item-detector.png";
 import PrimePlace from "./ProjectSection/ProjectImages/prime-place.png";
 
@@ -32,12 +32,18 @@ const projectDetails = [
   },
   {
     title: "PhoneNumValid",
-    technologiesUsed: ["React.js", "CSS", "Firebase", "Material UI", "Axios"],
+    technologiesUsed: [
+      "React.js",
+      "Tailwindcss",
+      "React Leaflet",
+      "Material UI",
+      "Axios",
+    ],
     description:
-      "A website that lets you verify if a phone number is valid, shows which country the number is from, the carrier etc. It also lets you save, delete numbers in firebase and filter through them to search for numbers",
-    imageUrl: PhoneValidator,
-    liveLink: "https://phonenumvalid.web.app",
-    sourceCodeLink: "https://github.com/0marKhan/PhoneNumberValidator",
+      "A website that lets you search for places of interest like schools, gas stations, libraries etc and displays them on a map as well",
+    imageUrl: PlaceFinder,
+    liveLink: "https://0markhan.github.io/PlaceFinder/",
+    sourceCodeLink: "https://github.com/0marKhan/PlaceFinder",
   },
   {
     title: "Item Detector",
