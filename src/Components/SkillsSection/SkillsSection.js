@@ -7,26 +7,27 @@ import {
   SiCss3,
   SiJavascript,
   SiReact,
-  // SiTypescript,
   SiSass,
   SiTailwindcss,
   SiGit,
-  // SiMongodb,
-  // SiReactnative,
-  // SiNodeDotJs,
   SiBootstrap,
-  // SiNextdotjs,
   SiStyledcomponents,
   SiRedux,
   SiAdobexd,
 } from "react-icons/si";
 
 import { FiFigma } from "react-icons/fi";
-
-// import { DiNodejs } from "react-icons/di";
-// import { FaNodeJs, FaReact } from "react-icons/fa";
-import { FaJava } from "react-icons/fa"; // Java icon from Font Awesome
-import { IoLogoPython } from "react-icons/io"; // Python icon from react-icons/io
+import { FaJava, FaNodeJs } from "react-icons/fa";
+import { IoLogoPython } from "react-icons/io";
+import {
+  SiNodeDotJs,
+  SiJest,
+  SiKubernetes,
+  SiDocker,
+  SiMongodb,
+  SiExpress,
+  SiCypress,
+} from "react-icons/si";
 
 const SkillsSection = () => {
   useEffect(() => {
@@ -147,24 +148,6 @@ const SkillsSection = () => {
             Python
           </div>
 
-          {/* TypeScript
-          <div
-            className="skills-container"
-            data-aos="fade-right"
-            data-aos-offset="100"
-          >
-            <SiTypescript className="skill-icon" title="TypeScript" />
-            TypeScript
-          </div> */}
-          {/* Next.js
-          <div
-            className="skills-container"
-            data-aos="fade-right"
-            data-aos-offset="100"
-          >
-            <SiNextdotjs className="skill-icon" title="Next.js" />
-            Next.js
-          </div> */}
           {/* Git */}
           <div
             className="skills-container"
@@ -183,14 +166,74 @@ const SkillsSection = () => {
             <FiFigma className="skill-icon" title="Figma" />
             Figma
           </div>
-          {/* Adobe XD */}
+          {/* Node.js */}
           <div
             className="skills-container"
             data-aos="fade-right"
             data-aos-offset="100"
           >
-            <SiAdobexd className="skill-icon" title="Adobe XD" />
-            Adobe XD
+            <FaNodeJs className="skill-icon" title="Node.js" />
+            Node.js
+          </div>
+
+          {/* Express.js */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiExpress className="skill-icon" title="Express.js" />
+            Express.js
+          </div>
+
+          {/* MongoDB */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiMongodb className="skill-icon" title="MongoDB" />
+            MongoDB
+          </div>
+
+          {/* Jest */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiJest className="skill-icon" title="Jest" />
+            Jest
+          </div>
+
+          {/* Cypress */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiCypress className="skill-icon" title="Cypress" />
+            Cypress
+          </div>
+
+          {/* Kubernetes */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiKubernetes className="skill-icon" title="Kubernetes" />
+            Kubernetes
+          </div>
+
+          {/* Docker */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiDocker className="skill-icon" title="Docker" />
+            Docker
           </div>
         </div>
       </div>
