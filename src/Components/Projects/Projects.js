@@ -14,7 +14,7 @@ import ProjectSection from "./ProjectSection/ProjectSection";
 //info for the project
 const projectDetails = [
   {
-    title: "PrimePlace",
+    title: "Real Estate Website",
     technologiesUsed: [
       "React.js",
       "Tailwind CSS",
@@ -31,7 +31,7 @@ const projectDetails = [
     //add links to where the buttons add here later for source code and live demo
   },
   {
-    title: "PhoneNumValid",
+    title: "Point of interest finder",
     technologiesUsed: [
       "React.js",
       "Tailwindcss",
