@@ -13,14 +13,12 @@ import {
   SiBootstrap,
   SiStyledcomponents,
   SiRedux,
-  SiAdobexd,
 } from "react-icons/si";
 
 import { FiFigma } from "react-icons/fi";
 import { FaJava, FaNodeJs } from "react-icons/fa";
 import { IoLogoPython } from "react-icons/io";
 import {
-  SiNodeDotJs,
   SiJest,
   SiKubernetes,
   SiDocker,
