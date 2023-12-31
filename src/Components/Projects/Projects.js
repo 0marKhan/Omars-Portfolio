@@ -5,6 +5,7 @@ import LinkShortener from "./ProjectSection/ProjectImages/LinkShortener.png";
 import PlaceFinder from "./ProjectSection/ProjectImages/placefinder.png";
 import ItemDetector from "./ProjectSection/ProjectImages/item-detector.png";
 import PrimePlace from "./ProjectSection/ProjectImages/prime-place.png";
+import Roam from "./ProjectSection/ProjectImages/roam.png";
 
 import "aos/dist/aos.css";
 import AOS from "aos";
@@ -13,6 +14,26 @@ import ProjectSection from "./ProjectSection/ProjectSection";
 
 //info for the project
 const projectDetails = [
+  {
+    title: "Roam Music Player",
+    technologiesUsed: [
+      "React.js",
+      "CSS",
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "Cypress",
+      "Netlify",
+      "Render",
+      "Material UI",
+    ],
+    description:
+      "A dynamic music player website allowing users to explore, create playlists, and enjoy personalized music experiences. Facilitated seamless song addition, playlist curation, and smooth music playback for an engaging user journey. Demo User - (email: user1@gmail.com, password: password)",
+    imageUrl: Roam,
+    liveLink: "https://music-player-roam.netlify.app/",
+    sourceCodeLink: "https://github.com/0marKhan/music-player",
+    //add links to where the buttons add here later for source code and live demo
+  },
   {
     title: "Real Estate Website",
     technologiesUsed: [

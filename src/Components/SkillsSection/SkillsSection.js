@@ -15,13 +15,14 @@ import {
   SiRedux,
 } from "react-icons/si";
 
+import { FaCode, FaDatabase, FaServer } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
 import { FaJava, FaNodeJs } from "react-icons/fa";
 import { IoLogoPython } from "react-icons/io";
 import {
-  SiJest,
-  SiKubernetes,
-  SiDocker,
+  // SiJest,
+  // SiKubernetes,
+  // SiDocker,
   SiMongodb,
   SiExpress,
   SiCypress,
@@ -193,8 +194,34 @@ const SkillsSection = () => {
             <SiMongodb className="skill-icon" title="MongoDB" />
             MongoDB
           </div>
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <FaCode className="skill-icon" title="Spring Boot" />
+            Spring Boot
+          </div>
 
-          {/* Jest */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <FaDatabase className="skill-icon" title="SQL" />
+            SQL
+          </div>
+
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <FaServer className="skill-icon" title="MySQL" />
+            MySQL
+          </div>
+
+          {/* Jest
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -202,7 +229,7 @@ const SkillsSection = () => {
           >
             <SiJest className="skill-icon" title="Jest" />
             Jest
-          </div>
+          </div> */}
 
           {/* Cypress */}
           <div
@@ -214,7 +241,7 @@ const SkillsSection = () => {
             Cypress
           </div>
 
-          {/* Kubernetes */}
+          {/* Kubernetes
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -222,9 +249,9 @@ const SkillsSection = () => {
           >
             <SiKubernetes className="skill-icon" title="Kubernetes" />
             Kubernetes
-          </div>
+          </div> */}
 
-          {/* Docker */}
+          {/* Docker
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -232,7 +259,7 @@ const SkillsSection = () => {
           >
             <SiDocker className="skill-icon" title="Docker" />
             Docker
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
