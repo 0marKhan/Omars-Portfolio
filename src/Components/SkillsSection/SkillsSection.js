@@ -13,20 +13,16 @@ import {
   SiBootstrap,
   SiStyledcomponents,
   SiRedux,
-} from "react-icons/si";
-
-import { FaCode, FaDatabase, FaServer } from "react-icons/fa";
-import { FiFigma } from "react-icons/fi";
-import { FaJava, FaNodeJs } from "react-icons/fa";
-import { IoLogoPython } from "react-icons/io";
-import {
-  // SiJest,
-  // SiKubernetes,
-  // SiDocker,
+  SiCsharp,
+  SiMicrosoftsqlserver,
   SiMongodb,
   SiExpress,
   SiCypress,
 } from "react-icons/si";
+
+import { FiFigma } from "react-icons/fi";
+
+import { FaJava, FaNodeJs, FaDatabase } from "react-icons/fa";
 
 const SkillsSection = () => {
   useEffect(() => {
@@ -71,6 +67,25 @@ const SkillsSection = () => {
             <SiJavascript className="skill-icon" title="JavaScript" />
             JavaScript
           </div>
+          {/* Java */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <FaJava className="skill-icon" title="Java" />
+            Java
+          </div>
+          {/* C# */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiCsharp className="skill-icon" title="C#" />
+            C#
+          </div>
+
           {/* React */}
           <div
             className="skills-container"
@@ -128,24 +143,6 @@ const SkillsSection = () => {
             <SiSass className="skill-icon" title="Sass" />
             Sass
           </div>
-          {/* Java */}
-          <div
-            className="skills-container"
-            data-aos="fade-right"
-            data-aos-offset="100"
-          >
-            <FaJava className="skill-icon" title="Java" />
-            Java
-          </div>
-          {/* Python */}
-          <div
-            className="skills-container"
-            data-aos="fade-right"
-            data-aos-offset="100"
-          >
-            <IoLogoPython className="skill-icon" title="Python" />
-            Python
-          </div>
 
           {/* Git */}
           <div
@@ -194,15 +191,7 @@ const SkillsSection = () => {
             <SiMongodb className="skill-icon" title="MongoDB" />
             MongoDB
           </div>
-          <div
-            className="skills-container"
-            data-aos="fade-right"
-            data-aos-offset="100"
-          >
-            <FaCode className="skill-icon" title="Spring Boot" />
-            Spring Boot
-          </div>
-
+          {/* SQL */}
           <div
             className="skills-container"
             data-aos="fade-right"
@@ -212,24 +201,15 @@ const SkillsSection = () => {
             SQL
           </div>
 
+          {/* SQL Server */}
           <div
             className="skills-container"
             data-aos="fade-right"
             data-aos-offset="100"
           >
-            <FaServer className="skill-icon" title="MySQL" />
-            MySQL
+            <SiMicrosoftsqlserver className="skill-icon" title="SQL Server" />
+            SQL Server
           </div>
-
-          {/* Jest
-          <div
-            className="skills-container"
-            data-aos="fade-right"
-            data-aos-offset="100"
-          >
-            <SiJest className="skill-icon" title="Jest" />
-            Jest
-          </div> */}
 
           {/* Cypress */}
           <div
@@ -240,26 +220,6 @@ const SkillsSection = () => {
             <SiCypress className="skill-icon" title="Cypress" />
             Cypress
           </div>
-
-          {/* Kubernetes
-          <div
-            className="skills-container"
-            data-aos="fade-right"
-            data-aos-offset="100"
-          >
-            <SiKubernetes className="skill-icon" title="Kubernetes" />
-            Kubernetes
-          </div> */}
-
-          {/* Docker
-          <div
-            className="skills-container"
-            data-aos="fade-right"
-            data-aos-offset="100"
-          >
-            <SiDocker className="skill-icon" title="Docker" />
-            Docker
-          </div> */}
         </div>
       </div>
     </div>
