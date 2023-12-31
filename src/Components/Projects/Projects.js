@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Projects.scss";
 
 import LinkShortener from "./ProjectSection/ProjectImages/LinkShortener.png";
-import PlaceFinder from "./ProjectSection/ProjectImages/placefinder.png";
+
 import ItemDetector from "./ProjectSection/ProjectImages/item-detector.png";
 import PrimePlace from "./ProjectSection/ProjectImages/prime-place.png";
 import Roam from "./ProjectSection/ProjectImages/roam.png";
