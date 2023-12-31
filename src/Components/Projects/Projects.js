@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Projects.scss";
 
 import LinkShortener from "./ProjectSection/ProjectImages/LinkShortener.png";
-import PlaceFinder from "./ProjectSection/ProjectImages/placefinder.png";
+
 import ItemDetector from "./ProjectSection/ProjectImages/item-detector.png";
 import PrimePlace from "./ProjectSection/ProjectImages/prime-place.png";
 import Roam from "./ProjectSection/ProjectImages/roam.png";
@@ -51,21 +51,7 @@ const projectDetails = [
     sourceCodeLink: "https://github.com/0marKhan/PrimePlace",
     //add links to where the buttons add here later for source code and live demo
   },
-  {
-    title: "Point of interest finder",
-    technologiesUsed: [
-      "React.js",
-      "Tailwindcss",
-      "React Leaflet",
-      "Material UI",
-      "Axios",
-    ],
-    description:
-      "A website that lets you search for places of interest like schools, gas stations, libraries etc and displays them on a map as well",
-    imageUrl: PlaceFinder,
-    liveLink: "https://0markhan.github.io/PlaceFinder/",
-    sourceCodeLink: "https://github.com/0marKhan/PlaceFinder",
-  },
+
   {
     title: "Item Detector",
     technologiesUsed: ["React.js", "SCSS", "Material UI", "Clarifai"],
