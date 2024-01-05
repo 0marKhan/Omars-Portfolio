@@ -18,6 +18,7 @@ import {
   SiExpress,
   SiCypress,
   SiSpring,
+  SiApachemaven,
 } from "react-icons/si";
 
 import { FiFigma } from "react-icons/fi";
@@ -208,6 +209,16 @@ const SkillsSection = () => {
           >
             <SiSpring className="skill-icon" title="Spring Boot" />
             Spring Boot
+          </div>
+
+          {/* Apache Maven */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiApachemaven className="skill-icon" title="Apache Maven" />
+            Apache Maven
           </div>
 
           {/* Cypress */}
