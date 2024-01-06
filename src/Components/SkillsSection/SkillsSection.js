@@ -17,8 +17,10 @@ import {
   SiMongodb,
   SiExpress,
   SiCypress,
-  SiSpring,
+  SiMicrosoftazure,
 } from "react-icons/si";
+
+import { DiMsqlServer } from "react-icons/di";
 
 import { FiFigma } from "react-icons/fi";
 
@@ -200,14 +202,24 @@ const SkillsSection = () => {
             <FaDatabase className="skill-icon" title="SQL" />
             SQL
           </div>
-          {/* Spring boot */}
+          {/* Microsoft SQL Server */}
           <div
             className="skills-container"
             data-aos="fade-right"
             data-aos-offset="100"
           >
-            <SiSpring className="skill-icon" title="Spring Boot" />
-            Spring Boot
+            <DiMsqlServer className="skill-icon" title="Microsoft SQL Server" />
+            Microsoft SQL Server
+          </div>
+
+          {/* Azure */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiMicrosoftazure className="skill-icon" title="Azure" />
+            Azure
           </div>
 
           {/* Cypress */}
