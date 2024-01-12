@@ -18,6 +18,7 @@ import {
   SiExpress,
   SiCypress,
   SiMicrosoftazure,
+  SiTypescript,
 } from "react-icons/si";
 
 import { DiMsqlServer } from "react-icons/di";
@@ -68,6 +69,15 @@ const SkillsSection = () => {
           >
             <SiJavascript className="skill-icon" title="JavaScript" />
             JavaScript
+          </div>
+          {/* TypeScript */}
+          <div
+            className="skills-container"
+            data-aos="fade-right"
+            data-aos-offset="100"
+          >
+            <SiTypescript className="skill-icon" title="TypeScript" />
+            TypeScript
           </div>
           {/* Java */}
           <div
