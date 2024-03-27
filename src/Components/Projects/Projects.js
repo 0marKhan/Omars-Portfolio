@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./Projects.scss";
 
-import LinkShortener from "./ProjectSection/ProjectImages/LinkShortener.png";
+import placeFinder from "./ProjectSection/ProjectImages/placefinder.png";
 
 import ItemDetector from "./ProjectSection/ProjectImages/item-detector.png";
 import PrimePlace from "./ProjectSection/ProjectImages/prime-place.png";
@@ -64,13 +64,13 @@ const projectDetails = [
   },
 
   {
-    title: "URL Shortener",
-    technologiesUsed: ["React.js", "CSS", "Axios", "Material UI"],
+    title: "Place Finder",
+    technologiesUsed: ["React.js", "Tailwind CSS", "Axios", "Material UI"],
     description:
-      "A website that lets you input long URL's by making an API call to shrtcode, and then displays the shortened link",
-    imageUrl: LinkShortener,
-    liveLink: "https://link-short-website.netlify.app",
-    sourceCodeLink: "https://github.com/0marKhan/LinkShortener",
+      "A website that lets you enter a location and find points of interest based on that",
+    imageUrl: placeFinder,
+    liveLink: "https://0markhan.github.io/PlaceFinder/",
+    sourceCodeLink: "https://github.com/0marKhan/PlaceFinder",
   },
 ];
 
