@@ -17,7 +17,7 @@ const About = () => {
       <div className="about-container">
         <Lottie className="lottie-animation" animationData={rocket} />
         <p className="about-description" data-aos="fade-down">
-          I'm a passionate frontend developer, that's worked on many websites,
+          I'm a passionate fullstack developer, that's worked on many websites,
           and aim to work on much more.
           <br />
           <br />
